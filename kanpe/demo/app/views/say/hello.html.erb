@@ -1,0 +1,11 @@
+<h1>カンペー</h1>
+<p>Find me in app/views/say/hello.html.erb</p>
+<p>ハロー</p>
+<p> 只今の時間は<%= Time.now %>です </p>
+<p> 只今の時間は<%= @time  %>です </p>
+<p>
+  <a href="/say/goodbye"> さようなら <a/>
+</p>
+<% for file in @files %>
+  ファイル名: <%= file%><br>
+<% end %>
