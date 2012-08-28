@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Pokepirty::Application.config.secret_token = '2f6583f15fe4728522a4ffbe809813b0b0d9f5a988af3a1c49102e770fe00af3ed53e1ffeb4ea0a52aab125f0739c1fb0e52fb4f4682913a9a816bdaff71411f'
+Pokepirty::Application.config.secret_token = '7e29be1dcebe1245354ed8beae7289ff573f9a32b30f6c8d489e8dd4e93e61cb33970b5374ae7d2f64192be1b3cebfd0858a99f78f8e97e47d32d2291421b72c'
