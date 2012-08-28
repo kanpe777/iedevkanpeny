@@ -1,0 +1,73 @@
+<%= form_for(@pokedb) do |f| %>
+  <% if @pokedb.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@pokedb.errors.count, "error") %> prohibited this pokedb from being saved:</h2>
+
+      <ul>
+      <% @pokedb.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :number %><br />
+    <%= f.number_field :number %>
+  </div>
+  <div class="field">
+    <%= f.label :image_url %><br />
+    <%= f.text_field :image_url %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :type1 %><br />
+    <%= f.text_field :type1 %>
+  </div>
+  <div class="field">
+    <%= f.label :type2 %><br />
+    <%= f.text_field :type2 %>
+  </div>
+  <div class="field">
+    <%= f.label :characteristic1 %><br />
+    <%= f.text_field :characteristic1 %>
+  </div>
+  <div class="field">
+    <%= f.label :characteristic2 %><br />
+    <%= f.text_field :characteristic2 %>
+  </div>
+  <div class="field">
+    <%= f.label :characteristic3 %><br />
+    <%= f.text_field :characteristic3 %>
+  </div>
+  <div class="field">
+    <%= f.label :baseh %><br />
+    <%= f.number_field :baseh %>
+  </div>
+  <div class="field">
+    <%= f.label :basea %><br />
+    <%= f.number_field :basea %>
+  </div>
+  <div class="field">
+    <%= f.label :baseb %><br />
+    <%= f.number_field :baseb %>
+  </div>
+  <div class="field">
+    <%= f.label :basec %><br />
+    <%= f.number_field :basec %>
+  </div>
+  <div class="field">
+    <%= f.label :based %><br />
+    <%= f.number_field :based %>
+  </div>
+  <div class="field">
+    <%= f.label :bases %><br />
+    <%= f.number_field :bases %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

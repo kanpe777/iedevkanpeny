@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  number: 1
+  image_url: MyString
+  name: MyString
+  type1: MyString
+  type2: MyString
+  characteristic1: MyString
+  characteristic2: MyString
+  characteristic3: MyString
+  baseh: 1
+  basea: 1
+  baseb: 1
+  basec: 1
+  based: 1
+  bases: 1
+
+two:
+  number: 1
+  image_url: MyString
+  name: MyString
+  type1: MyString
+  type2: MyString
+  characteristic1: MyString
+  characteristic2: MyString
+  characteristic3: MyString
+  baseh: 1
+  basea: 1
+  baseb: 1
+  basec: 1
+  based: 1
+  bases: 1
