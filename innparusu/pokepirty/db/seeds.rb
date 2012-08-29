@@ -8,7 +8,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Pokedb.delete_all
 Pokedb.create(number:          001,
-              image_url:       'poke/n001.gif',
+              image_url:       'poke/n1.gif',
               name:            'フシギダネ',
               type1:           'くさ',
               type2:           'どく',
@@ -23,7 +23,7 @@ Pokedb.create(number:          001,
               bases:           45)
 
 Pokedb.create(number:          002,
-              image_url:       'poke/n002.gif',
+              image_url:       'poke/n2.gif',
               name:            'フシギソウ',
               type1:           'くさ',
               type2:           'どく',
@@ -38,7 +38,7 @@ Pokedb.create(number:          002,
               bases:           60)
 
 Pokedb.create(number:          003,
-              image_url:       'poke/n003.gif',
+              image_url:       'poke/n3.gif',
               name:            'フシギバナ',
               type1:           'くさ',
               type2:           'どく',
@@ -53,7 +53,7 @@ Pokedb.create(number:          003,
               bases:           80)
 
 Pokedb.create(number:          004,
-              image_url:       'poke/n004.gif',
+              image_url:       'poke/n4.gif',
               name:            'ヒトカゲ',
               type1:           'ほのお',
               type2:           '',
@@ -68,7 +68,7 @@ Pokedb.create(number:          004,
               bases:           65)
 
 Pokedb.create(number:          005,
-              image_url:       'poke/n005.gif',
+              image_url:       'poke/n5.gif',
               name:            'リザード',
               type1:           'ほのお',
               type2:           '',
@@ -83,7 +83,7 @@ Pokedb.create(number:          005,
               bases:           80)
 
 Pokedb.create(number:          006,
-              image_url:       'poke/n006.gif',
+              image_url:       'poke/n6.gif',
               name:            'リザードン',
               type1:           'ほのお',
               type2:           'ひこう',
@@ -98,7 +98,7 @@ Pokedb.create(number:          006,
               bases:           100)
 
 Pokedb.create(number:          007,
-              image_url:       'poke/n007.gif',
+              image_url:       'poke/n7.gif',
               name:            'ゼニガメ',
               type1:           'みず',
               type2:           '',
@@ -113,7 +113,7 @@ Pokedb.create(number:          007,
               bases:           43)
 
 Pokedb.create(number:          008,
-              image_url:       'poke/n008.gif',
+              image_url:       'poke/n8.gif',
               name:            'カメール',
               type1:           'みず',
               type2:           '',
@@ -128,7 +128,7 @@ Pokedb.create(number:          008,
               bases:           58)
 
 Pokedb.create(number:          009,
-              image_url:       'poke/n009.gif',
+              image_url:       'poke/n9.gif',
               name:            'カメックス',
               type1:           'みず',
               type2:           '',
@@ -143,7 +143,7 @@ Pokedb.create(number:          009,
               bases:           78)
 
 Pokedb.create(number:          010,
-              image_url:       'poke/n010.gif',
+              image_url:       'poke/n10.gif',
               name:            'キャタピー',
               type1:           'むし',
               type2:           '',
@@ -158,7 +158,7 @@ Pokedb.create(number:          010,
               bases:           45)
 
 Pokedb.create(number:          011,
-              image_url:       'poke/n011.gif',
+              image_url:       'poke/n11.gif',
               name:            'トランセル',
               type1:           'むし',
               type2:           '',
@@ -173,7 +173,7 @@ Pokedb.create(number:          011,
               bases:           30)
 
 Pokedb.create(number:          012,
-              image_url:       'poke/n012.gif',
+              image_url:       'poke/n12.gif',
               name:            'バタフリー',
               type1:           'むし',
               type2:           'ひこう',
@@ -188,7 +188,7 @@ Pokedb.create(number:          012,
               bases:           70)
 
 Pokedb.create(number:          013,
-              image_url:       'poke/n013.gif',
+              image_url:       'poke/n13.gif',
               name:            'ビードル',
               type1:           'むし',
               type2:           'どく',
@@ -203,7 +203,7 @@ Pokedb.create(number:          013,
               bases:           50)
 
 Pokedb.create(number:          014,
-              image_url:       'poke/n014.gif',
+              image_url:       'poke/n14.gif',
               name:            'コクーン',
               type1:           'むし',
               type2:           'どく',
@@ -218,7 +218,7 @@ Pokedb.create(number:          014,
               bases:           35)
 
 Pokedb.create(number:          015,
-              image_url:       'poke/n015.gif',
+              image_url:       'poke/n15.gif',
               name:            'スピアー',
               type1:           'むし',
               type2:           'どく',
@@ -233,7 +233,7 @@ Pokedb.create(number:          015,
               bases:           75)
 
 Pokedb.create(number:          016,
-              image_url:       'poke/n016.gif',
+              image_url:       'poke/n16.gif',
               name:            'ポッポ',
               type1:           'ノーマル',
               type2:           'ひこう',
@@ -248,7 +248,7 @@ Pokedb.create(number:          016,
               bases:           56)
 
 Pokedb.create(number:          017,
-              image_url:       'poke/n017.gif',
+              image_url:       'poke/n17.gif',
               name:            'ピジョン',
               type1:           'ノーマル',
               type2:           'ひこう',
@@ -263,7 +263,7 @@ Pokedb.create(number:          017,
               bases:           71)
 
 Pokedb.create(number:          018,
-              image_url:       'poke/n018.gif',
+              image_url:       'poke/n18.gif',
               name:            'ピジョット',
               type1:           'ノーマル',
               type2:           'ひこう',
@@ -278,7 +278,7 @@ Pokedb.create(number:          018,
               bases:           91)
 
 Pokedb.create(number:          019,
-              image_url:       'poke/n019.gif',
+              image_url:       'poke/n19.gif',
               name:            'コラッタ',
               type1:           'ノーマル',
               type2:           '',
@@ -293,7 +293,7 @@ Pokedb.create(number:          019,
               bases:           72)
 
 Pokedb.create(number:          020,
-              image_url:       'poke/n020.gif',
+              image_url:       'poke/n20.gif',
               name:            'ラッタ',
               type1:           'ノーマル',
               type2:           '',
@@ -308,7 +308,7 @@ Pokedb.create(number:          020,
               bases:           97)
 
 Pokedb.create(number:          021,
-              image_url:       'poke/n021.gif',
+              image_url:       'poke/n21.gif',
               name:            'オニスズメ',
               type1:           'ノーマル',
               type2:           'ひこう',
@@ -323,7 +323,7 @@ Pokedb.create(number:          021,
               bases:           70)
 
 Pokedb.create(number:          022,
-              image_url:       'poke/n022.gif',
+              image_url:       'poke/n22.gif',
               name:            'オニドリル',
               type1:           'ノーマル',
               type2:           'ひこう',
@@ -338,7 +338,7 @@ Pokedb.create(number:          022,
               bases:           100)
 
 Pokedb.create(number:          023,
-              image_url:       'poke/n023.gif',
+              image_url:       'poke/n23.gif',
               name:            'アーボ',
               type1:           'どく',
               type2:           '',
@@ -353,7 +353,7 @@ Pokedb.create(number:          023,
               bases:           55)
 
 Pokedb.create(number:          024,
-              image_url:       'poke/n024.gif',
+              image_url:       'poke/n24.gif',
               name:            'アーボック',
               type1:           'どく',
               type2:           '',
@@ -368,7 +368,7 @@ Pokedb.create(number:          024,
               bases:           80)
 
 Pokedb.create(number:          025,
-              image_url:       'poke/n025.gif',
+              image_url:       'poke/n25.gif',
               name:            'ピカチュウ',
               type1:           'でんき',
               type2:           '',
@@ -383,7 +383,7 @@ Pokedb.create(number:          025,
               bases:           90)
 
 Pokedb.create(number:          026,
-              image_url:       'poke/n026.gif',
+              image_url:       'poke/n26.gif',
               name:            'ライチュウ',
               type1:           'でんき',
               type2:           '',
@@ -398,7 +398,7 @@ Pokedb.create(number:          026,
               bases:           100)
 
 Pokedb.create(number:          027,
-              image_url:       'poke/n027.gif',
+              image_url:       'poke/n27.gif',
               name:            'サンド',
               type1:           'じめん',
               type2:           '',
@@ -413,7 +413,7 @@ Pokedb.create(number:          027,
               bases:           40)
 
 Pokedb.create(number:          028,
-              image_url:       'poke/n028.gif',
+              image_url:       'poke/n28.gif',
               name:            'サンドパン',
               type1:           'じめん',
               type2:           '',
@@ -428,7 +428,7 @@ Pokedb.create(number:          028,
               bases:           65)
 
 Pokedb.create(number:          029,
-              image_url:       'poke/n029.gif',
+              image_url:       'poke/n29.gif',
               name:            'ニドラン♀',
               type1:           'どく',
               type2:           '',
@@ -443,7 +443,7 @@ Pokedb.create(number:          029,
               bases:           41)
 
 Pokedb.create(number:          030,
-              image_url:       'poke/n030.gif',
+              image_url:       'poke/n30.gif',
               name:            'ニドリーナ',
               type1:           'どく',
               type2:           '',
@@ -458,7 +458,7 @@ Pokedb.create(number:          030,
               bases:           56)
 
 Pokedb.create(number:          031,
-              image_url:       'poke/n031.gif',
+              image_url:       'poke/n31.gif',
               name:            'ニドクイン',
               type1:           'どく',
               type2:           'じめん',
@@ -473,7 +473,7 @@ Pokedb.create(number:          031,
               bases:           76)
 
 Pokedb.create(number:          032,
-              image_url:       'poke/n032.gif',
+              image_url:       'poke/n32.gif',
               name:            'ニドラン♂',
               type1:           'どく',
               type2:           '',
@@ -488,7 +488,7 @@ Pokedb.create(number:          032,
               bases:           50)
 
 Pokedb.create(number:          033,
-              image_url:       'poke/n033.gif',
+              image_url:       'poke/n33.gif',
               name:            'ニドリーノ',
               type1:           'どく',
               type2:           '',
@@ -503,7 +503,7 @@ Pokedb.create(number:          033,
               bases:           65)
 
 Pokedb.create(number:          034,
-              image_url:       'poke/n034.gif',
+              image_url:       'poke/n34.gif',
               name:            'ニドキング',
               type1:           'どく',
               type2:           'じめん',
@@ -518,7 +518,7 @@ Pokedb.create(number:          034,
               bases:           85)
 
 Pokedb.create(number:          035,
-              image_url:       'poke/n035.gif',
+              image_url:       'poke/n35.gif',
               name:            'ピッピ',
               type1:           'ノーマル',
               type2:           '',
@@ -533,7 +533,7 @@ Pokedb.create(number:          035,
               bases:           35)
 
 Pokedb.create(number:          036,
-              image_url:       'poke/n036.gif',
+              image_url:       'poke/n36.gif',
               name:            'ピクシー',
               type1:           'ノーマル',
               type2:           '',
@@ -548,7 +548,7 @@ Pokedb.create(number:          036,
               bases:           60)
 
 Pokedb.create(number:          037,
-              image_url:       'poke/n037.gif',
+              image_url:       'poke/n37.gif',
               name:            'ロコン',
               type1:           'ほのお',
               type2:           '',
@@ -563,7 +563,7 @@ Pokedb.create(number:          037,
               bases:           65)
 
 Pokedb.create(number:          038,
-              image_url:       'poke/n038.gif',
+              image_url:       'poke/n38.gif',
               name:            'キュウコン',
               type1:           'ほのお',
               type2:           '',
@@ -578,7 +578,7 @@ Pokedb.create(number:          038,
               bases:           100)
 
 Pokedb.create(number:          039,
-              image_url:       'poke/n039.gif',
+              image_url:       'poke/n39.gif',
               name:            'プリン',
               type1:           'ノーマル',
               type2:           '',
@@ -593,7 +593,7 @@ Pokedb.create(number:          039,
               bases:           20)
 
 Pokedb.create(number:          040,
-              image_url:       'poke/n040.gif',
+              image_url:       'poke/n40.gif',
               name:            'プクリン',
               type1:           'ノーマル',
               type2:           '',
@@ -608,7 +608,7 @@ Pokedb.create(number:          040,
               bases:           45)
 
 Pokedb.create(number:          041,
-              image_url:       'poke/n041.gif',
+              image_url:       'poke/n41.gif',
               name:            'ズバット',
               type1:           'どく',
               type2:           'ひこう',
@@ -623,7 +623,7 @@ Pokedb.create(number:          041,
               bases:           55)
 
 Pokedb.create(number:          042,
-              image_url:       'poke/n042.gif',
+              image_url:       'poke/n42.gif',
               name:            'ゴルバット',
               type1:           'どく',
               type2:           'ひこう',
@@ -638,7 +638,7 @@ Pokedb.create(number:          042,
               bases:           90)
 
 Pokedb.create(number:          043,
-              image_url:       'poke/n043.gif',
+              image_url:       'poke/n43.gif',
               name:            'ナゾノクサ',
               type1:           'くさ',
               type2:           'どく',
@@ -653,7 +653,7 @@ Pokedb.create(number:          043,
               bases:           30)
 
 Pokedb.create(number:          044,
-              image_url:       'poke/n044.gif',
+              image_url:       'poke/n44.gif',
               name:            'クサイハナ',
               type1:           'くさ',
               type2:           'どく',
@@ -668,7 +668,7 @@ Pokedb.create(number:          044,
               bases:           40)
 
 Pokedb.create(number:          045,
-              image_url:       'poke/n045.gif',
+              image_url:       'poke/n45.gif',
               name:            'ラフレシア',
               type1:           'くさ',
               type2:           'どく',
@@ -683,7 +683,7 @@ Pokedb.create(number:          045,
               bases:           50)
 
 Pokedb.create(number:          046,
-              image_url:       'poke/n046.gif',
+              image_url:       'poke/n46.gif',
               name:            'パラス',
               type1:           'むし',
               type2:           'くさ',
@@ -698,7 +698,7 @@ Pokedb.create(number:          046,
               bases:           25)
 
 Pokedb.create(number:          047,
-              image_url:       'poke/n047.gif',
+              image_url:       'poke/n47.gif',
               name:            'パラセクト',
               type1:           'むし',
               type2:           'くさ',
@@ -713,7 +713,7 @@ Pokedb.create(number:          047,
               bases:           30)
 
 Pokedb.create(number:          048,
-              image_url:       'poke/n048.gif',
+              image_url:       'poke/n48.gif',
               name:            'コンパン',
               type1:           'むし',
               type2:           'どく',
@@ -728,7 +728,7 @@ Pokedb.create(number:          048,
               bases:           45)
 
 Pokedb.create(number:          049,
-              image_url:       'poke/n049.gif',
+              image_url:       'poke/n49.gif',
               name:            'モルフォン',
               type1:           'むし',
               type2:           'どく',
@@ -743,7 +743,7 @@ Pokedb.create(number:          049,
               bases:           90)
 
 Pokedb.create(number:          050,
-              image_url:       'poke/n050.gif',
+              image_url:       'poke/n50.gif',
               name:            'ディグダ',
               type1:           'じめん',
               type2:           '',
@@ -758,7 +758,7 @@ Pokedb.create(number:          050,
               bases:           95)
 
 Pokedb.create(number:          051,
-              image_url:       'poke/n051.gif',
+              image_url:       'poke/n51.gif',
               name:            'ダグトリオ',
               type1:           'じめん',
               type2:           '',
@@ -773,7 +773,7 @@ Pokedb.create(number:          051,
               bases:           120)
 
 Pokedb.create(number:          052,
-              image_url:       'poke/n052.gif',
+              image_url:       'poke/n52.gif',
               name:            'ニャース',
               type1:           'ノーマル',
               type2:           '',
@@ -788,7 +788,7 @@ Pokedb.create(number:          052,
               bases:           90)
 
 Pokedb.create(number:          053,
-              image_url:       'poke/n053.gif',
+              image_url:       'poke/n53.gif',
               name:            'ペルシアン',
               type1:           'ノーマル',
               type2:           '',
@@ -803,7 +803,7 @@ Pokedb.create(number:          053,
               bases:           115)
 
 Pokedb.create(number:          054,
-              image_url:       'poke/n054.gif',
+              image_url:       'poke/n54.gif',
               name:            'コダック',
               type1:           'みず',
               type2:           '',
@@ -818,7 +818,7 @@ Pokedb.create(number:          054,
               bases:           55)
 
 Pokedb.create(number:          055,
-              image_url:       'poke/n055.gif',
+              image_url:       'poke/n55.gif',
               name:            'ゴルダック',
               type1:           'みず',
               type2:           '',
@@ -833,7 +833,7 @@ Pokedb.create(number:          055,
               bases:           85)
 
 Pokedb.create(number:          056,
-              image_url:       'poke/n056.gif',
+              image_url:       'poke/n56.gif',
               name:            'マンキー',
               type1:           'かくとう',
               type2:           '',
@@ -848,7 +848,7 @@ Pokedb.create(number:          056,
               bases:           70)
 
 Pokedb.create(number:          057,
-              image_url:       'poke/n057.gif',
+              image_url:       'poke/n57.gif',
               name:            'オコリザル',
               type1:           'かくとう',
               type2:           '',
@@ -863,7 +863,7 @@ Pokedb.create(number:          057,
               bases:           95)
 
 Pokedb.create(number:          058,
-              image_url:       'poke/n058.gif',
+              image_url:       'poke/n58.gif',
               name:            'ガーディ',
               type1:           'ほのお',
               type2:           '',
@@ -878,7 +878,7 @@ Pokedb.create(number:          058,
               bases:           60)
 
 Pokedb.create(number:          059,
-              image_url:       'poke/n059.gif',
+              image_url:       'poke/n59.gif',
               name:            'ウインディ',
               type1:           'ほのお',
               type2:           '',
@@ -893,7 +893,7 @@ Pokedb.create(number:          059,
               bases:           95)
 
 Pokedb.create(number:          060,
-              image_url:       'poke/n060.gif',
+              image_url:       'poke/n60.gif',
               name:            'ニョロモ',
               type1:           'みず',
               type2:           '',
@@ -908,7 +908,7 @@ Pokedb.create(number:          060,
               bases:           90)
 
 Pokedb.create(number:          061,
-              image_url:       'poke/n061.gif',
+              image_url:       'poke/n61.gif',
               name:            'ニョロゾ',
               type1:           'みず',
               type2:           '',
@@ -923,7 +923,7 @@ Pokedb.create(number:          061,
               bases:           90)
 
 Pokedb.create(number:          062,
-              image_url:       'poke/n062.gif',
+              image_url:       'poke/n62.gif',
               name:            'ニョロボン',
               type1:           'みず',
               type2:           'かくとう',
@@ -938,7 +938,7 @@ Pokedb.create(number:          062,
               bases:           70)
 
 Pokedb.create(number:          063,
-              image_url:       'poke/n063.gif',
+              image_url:       'poke/n63.gif',
               name:            'ケーシィ',
               type1:           'エスパー',
               type2:           '',
@@ -953,7 +953,7 @@ Pokedb.create(number:          063,
               bases:           90)
 
 Pokedb.create(number:          064,
-              image_url:       'poke/n064.gif',
+              image_url:       'poke/n64.gif',
               name:            'ユンゲラー',
               type1:           'エスパー',
               type2:           '',
@@ -968,7 +968,7 @@ Pokedb.create(number:          064,
               bases:           105)
 
 Pokedb.create(number:          065,
-              image_url:       'poke/n065.gif',
+              image_url:       'poke/n65.gif',
               name:            'フーディン',
               type1:           'エスパー',
               type2:           '',
@@ -983,7 +983,7 @@ Pokedb.create(number:          065,
               bases:           120)
 
 Pokedb.create(number:          066,
-              image_url:       'poke/n066.gif',
+              image_url:       'poke/n66.gif',
               name:            'ワンリキー',
               type1:           'かくとう',
               type2:           '',
@@ -998,7 +998,7 @@ Pokedb.create(number:          066,
               bases:           35)
 
 Pokedb.create(number:          067,
-              image_url:       'poke/n067.gif',
+              image_url:       'poke/n67.gif',
               name:            'ゴーリキー',
               type1:           'かくとう',
               type2:           '',
@@ -1013,7 +1013,7 @@ Pokedb.create(number:          067,
               bases:           45)
 
 Pokedb.create(number:          068,
-              image_url:       'poke/n068.gif',
+              image_url:       'poke/n68.gif',
               name:            'カイリキー',
               type1:           'かくとう',
               type2:           '',
@@ -1028,7 +1028,7 @@ Pokedb.create(number:          068,
               bases:           55)
 
 Pokedb.create(number:          069,
-              image_url:       'poke/n069.gif',
+              image_url:       'poke/n69.gif',
               name:            'マダツボミ',
               type1:           'くさ',
               type2:           'どく',
@@ -1043,7 +1043,7 @@ Pokedb.create(number:          069,
               bases:           40)
 
 Pokedb.create(number:          070,
-              image_url:       'poke/n070.gif',
+              image_url:       'poke/n70.gif',
               name:            'ウツドン',
               type1:           'くさ',
               type2:           'どく',
@@ -1058,7 +1058,7 @@ Pokedb.create(number:          070,
               bases:           55)
 
 Pokedb.create(number:          071,
-              image_url:       'poke/n071.gif',
+              image_url:       'poke/n71.gif',
               name:            'ウツボット',
               type1:           'くさ',
               type2:           'どく',
@@ -1073,7 +1073,7 @@ Pokedb.create(number:          071,
               bases:           70)
 
 Pokedb.create(number:          072,
-              image_url:       'poke/n072.gif',
+              image_url:       'poke/n72.gif',
               name:            'メノクラゲ',
               type1:           'みず',
               type2:           'どく',
@@ -1088,7 +1088,7 @@ Pokedb.create(number:          072,
               bases:           70)
 
 Pokedb.create(number:          073,
-              image_url:       'poke/n073.gif',
+              image_url:       'poke/n73.gif',
               name:            'ドククラゲ',
               type1:           'みず',
               type2:           'どく',
@@ -1103,7 +1103,7 @@ Pokedb.create(number:          073,
               bases:           100)
 
 Pokedb.create(number:          074,
-              image_url:       'poke/n074.gif',
+              image_url:       'poke/n74.gif',
               name:            'イシツブテ',
               type1:           'いわ',
               type2:           'じめん',
@@ -1118,7 +1118,7 @@ Pokedb.create(number:          074,
               bases:           20)
 
 Pokedb.create(number:          075,
-              image_url:       'poke/n075.gif',
+              image_url:       'poke/n75.gif',
               name:            'ゴローン',
               type1:           'いわ',
               type2:           'じめん',
@@ -1133,7 +1133,7 @@ Pokedb.create(number:          075,
               bases:           35)
 
 Pokedb.create(number:          076,
-              image_url:       'poke/n076.gif',
+              image_url:       'poke/n76.gif',
               name:            'ゴローニャ',
               type1:           'いわ',
               type2:           'じめん',
@@ -1148,7 +1148,7 @@ Pokedb.create(number:          076,
               bases:           45)
 
 Pokedb.create(number:          077,
-              image_url:       'poke/n077.gif',
+              image_url:       'poke/n77.gif',
               name:            'ポニータ',
               type1:           'ほのお',
               type2:           '',
@@ -1163,7 +1163,7 @@ Pokedb.create(number:          077,
               bases:           90)
 
 Pokedb.create(number:          078,
-              image_url:       'poke/n078.gif',
+              image_url:       'poke/n78.gif',
               name:            'ギャロップ',
               type1:           'ほのお',
               type2:           '',
@@ -1178,7 +1178,7 @@ Pokedb.create(number:          078,
               bases:           105)
 
 Pokedb.create(number:          079,
-              image_url:       'poke/n079.gif',
+              image_url:       'poke/n79.gif',
               name:            'ヤドン',
               type1:           'みず',
               type2:           'エスパー',
@@ -1193,7 +1193,7 @@ Pokedb.create(number:          079,
               bases:           15)
 
 Pokedb.create(number:          080,
-              image_url:       'poke/n080.gif',
+              image_url:       'poke/n80.gif',
               name:            'ヤドラン',
               type1:           'みず',
               type2:           'エスパー',
@@ -1208,7 +1208,7 @@ Pokedb.create(number:          080,
               bases:           30)
 
 Pokedb.create(number:          081,
-              image_url:       'poke/n081.gif',
+              image_url:       'poke/n81.gif',
               name:            'コイル',
               type1:           'でんき',
               type2:           'はがね',
@@ -1223,7 +1223,7 @@ Pokedb.create(number:          081,
               bases:           45)
 
 Pokedb.create(number:          082,
-              image_url:       'poke/n082.gif',
+              image_url:       'poke/n82.gif',
               name:            'レアコイル',
               type1:           'でんき',
               type2:           'はがね',
@@ -1238,7 +1238,7 @@ Pokedb.create(number:          082,
               bases:           70)
 
 Pokedb.create(number:          083,
-              image_url:       'poke/n083.gif',
+              image_url:       'poke/n83.gif',
               name:            'カモネギ',
               type1:           'ノーマル',
               type2:           'ひこう',
@@ -1253,7 +1253,7 @@ Pokedb.create(number:          083,
               bases:           60)
 
 Pokedb.create(number:          084,
-              image_url:       'poke/n084.gif',
+              image_url:       'poke/n84.gif',
               name:            'ドードー',
               type1:           'ノーマル',
               type2:           'ひこう',
@@ -1268,7 +1268,7 @@ Pokedb.create(number:          084,
               bases:           75)
 
 Pokedb.create(number:          085,
-              image_url:       'poke/n085.gif',
+              image_url:       'poke/n85.gif',
               name:            'ドードリオ',
               type1:           'ノーマル',
               type2:           'ひこう',
@@ -1283,7 +1283,7 @@ Pokedb.create(number:          085,
               bases:           100)
 
 Pokedb.create(number:          086,
-              image_url:       'poke/n086.gif',
+              image_url:       'poke/n86.gif',
               name:            'パウワウ',
               type1:           'みず',
               type2:           '',
@@ -1298,7 +1298,7 @@ Pokedb.create(number:          086,
               bases:           45)
 
 Pokedb.create(number:          087,
-              image_url:       'poke/n087.gif',
+              image_url:       'poke/n87.gif',
               name:            'ジュゴン',
               type1:           'みず',
               type2:           'こおり',
@@ -1313,7 +1313,7 @@ Pokedb.create(number:          087,
               bases:           70)
 
 Pokedb.create(number:          088,
-              image_url:       'poke/n088.gif',
+              image_url:       'poke/n88.gif',
               name:            'ベトベター',
               type1:           'どく',
               type2:           '',
@@ -1328,7 +1328,7 @@ Pokedb.create(number:          088,
               bases:           25)
 
 Pokedb.create(number:          089,
-              image_url:       'poke/n089.gif',
+              image_url:       'poke/n89.gif',
               name:            'ベトベトン',
               type1:           'どく',
               type2:           '',
@@ -1343,7 +1343,7 @@ Pokedb.create(number:          089,
               bases:           50)
 
 Pokedb.create(number:          090,
-              image_url:       'poke/n090.gif',
+              image_url:       'poke/n90.gif',
               name:            'シェルダー',
               type1:           'みず',
               type2:           '',
@@ -1358,7 +1358,7 @@ Pokedb.create(number:          090,
               bases:           40)
 
 Pokedb.create(number:          091,
-              image_url:       'poke/n091.gif',
+              image_url:       'poke/n91.gif',
               name:            'パルシェン',
               type1:           'みず',
               type2:           'こおり',
@@ -1373,7 +1373,7 @@ Pokedb.create(number:          091,
               bases:           70)
 
 Pokedb.create(number:          092,
-              image_url:       'poke/n092.gif',
+              image_url:       'poke/n92.gif',
               name:            'ゴース',
               type1:           'ゴースト',
               type2:           'どく',
@@ -1388,7 +1388,7 @@ Pokedb.create(number:          092,
               bases:           80)
 
 Pokedb.create(number:          093,
-              image_url:       'poke/n093.gif',
+              image_url:       'poke/n93.gif',
               name:            'ゴースト',
               type1:           'ゴースト',
               type2:           'どく',
@@ -1403,7 +1403,7 @@ Pokedb.create(number:          093,
               bases:           95)
 
 Pokedb.create(number:          094,
-              image_url:       'poke/n094.gif',
+              image_url:       'poke/n94.gif',
               name:            'ゲンガー',
               type1:           'ゴースト',
               type2:           'どく',
@@ -1418,7 +1418,7 @@ Pokedb.create(number:          094,
               bases:           110)
 
 Pokedb.create(number:          095,
-              image_url:       'poke/n095.gif',
+              image_url:       'poke/n95.gif',
               name:            'イワーク',
               type1:           'いわ',
               type2:           'じめん',
@@ -1433,7 +1433,7 @@ Pokedb.create(number:          095,
               bases:           70)
 
 Pokedb.create(number:          096,
-              image_url:       'poke/n096.gif',
+              image_url:       'poke/n96.gif',
               name:            'スリープ',
               type1:           'エスパー',
               type2:           '',
@@ -1448,7 +1448,7 @@ Pokedb.create(number:          096,
               bases:           42)
 
 Pokedb.create(number:          097,
-              image_url:       'poke/n097.gif',
+              image_url:       'poke/n97.gif',
               name:            'スリーパー',
               type1:           'エスパー',
               type2:           '',
@@ -1463,7 +1463,7 @@ Pokedb.create(number:          097,
               bases:           67)
 
 Pokedb.create(number:          098,
-              image_url:       'poke/n098.gif',
+              image_url:       'poke/n98.gif',
               name:            'クラブ',
               type1:           'みず',
               type2:           '',
@@ -1478,7 +1478,7 @@ Pokedb.create(number:          098,
               bases:           50)
 
 Pokedb.create(number:          099,
-              image_url:       'poke/n099.gif',
+              image_url:       'poke/n99.gif',
               name:            'キングラー',
               type1:           'みず',
               type2:           '',
