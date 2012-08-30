@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120830080905) do
+ActiveRecord::Schema.define(:version => 20120830120719) do
 
   create_table "pokedbs", :force => true do |t|
     t.integer  "number"
@@ -124,7 +124,7 @@ ActiveRecord::Schema.define(:version => 20120830080905) do
     t.string   "characteristic6"
     t.string   "personality6"
     t.string   "skill6_1"
-    t.string   "skill6_6"
+    t.string   "skill6_2"
     t.string   "skill6_3"
     t.string   "skill6_4"
     t.string   "belonging6"

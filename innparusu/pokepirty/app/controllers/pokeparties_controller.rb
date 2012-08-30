@@ -14,7 +14,7 @@ class PokepartiesController < ApplicationController
   # GET /pokeparties/1.json
   def show
     @pokeparty = Pokeparty.find(params[:id])
-
+    
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @pokeparty }
