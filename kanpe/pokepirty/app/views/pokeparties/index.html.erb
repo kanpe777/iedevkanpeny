@@ -111,9 +111,9 @@
   </tr>
   -->
 <% @pokeparties.each do |pokeparty| %>
-  <table>
-      <caption>
-        <b>パーティ名:<%= pokeparty.party %></b><br>
+    <table class="<%= cycle('list_line_odd','list_line_even') %>">
+      <caption >
+          <b> パーティ名:<%= pokeparty.party %></b><br>
         戦績:<%= pokeparty.battlec %>回中
         <%= pokeparty.winc %>回勝利<br>
         対戦形式:<%= pokeparty.battletype %>　
@@ -123,11 +123,17 @@
    <tr> 
     <td>
         <% (1..6).each do |no| %>
+        <% if no%2 == 0 %>
+        <span class=list_line_white>
+        <% else %>
+        <span>
+        <% end %>
         <%= eval("pokeparty.p#{no}name") %>
         <%= eval("pokeparty.p#{no}abilites") %>
         <%= eval("pokeparty.p#{no}personality") %>
         <%= eval("pokeparty.p#{no}belonging") %>
         <%= eval("pokeparty.p#{no}role") %><br>
+    </span>
         <% end %>
     </td>
 
@@ -136,7 +142,7 @@
         <%= link_to 'Destroy', pokeparty, confirm: 'Are you sure?', method: :delete %>
     </td>
   </tr>
-  </table>
+  </table><br>
 <% end %>
 </table>
 
