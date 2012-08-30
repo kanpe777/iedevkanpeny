@@ -1,0 +1,429 @@
+<%= form_for(@pokeparty) do |f| %>
+  <% if @pokeparty.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@pokeparty.errors.count, "error") %> prohibited this pokeparty from being saved:</h2>
+
+      <ul>
+      <% @pokeparty.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :party %><br />
+    <%= f.text_field :party %>
+  </div>
+  <div class="field">
+    <%= f.label :battle %><br />
+    <%= f.number_field :battle %>
+  </div>
+  <div class="field">
+    <%= f.label :win %><br />
+    <%= f.number_field :win %>
+  </div>
+  <div class="field">
+    <%= f.label :battletype %><br />
+    <%= f.text_field :battletype %>
+  </div>
+  <div class="field">
+    <%= f.label :rule %><br />
+    <%= f.text_field :rule %>
+  </div>
+  <div class="field">
+    <%= f.label :shooter %><br />
+    <%= f.text_field :shooter %>
+  </div>
+  <div class="field">
+    <%= f.label :strategic %><br />
+    <%= f.text_area :strategic %>
+  </div>
+  <div class="field">
+    <%= f.label :name1 %><br />
+    <%= f.text_field :name1 %>
+  </div>
+  <div class="field">
+    <%= f.label :characteristic1 %><br />
+    <%= f.text_field :characteristic1 %>
+  </div>
+  <div class="field">
+    <%= f.label :personality1 %><br />
+    <%= f.text_field :personality1 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill1_1 %><br />
+    <%= f.text_field :skill1_1 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill1_2 %><br />
+    <%= f.text_field :skill1_2 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill1_3 %><br />
+    <%= f.text_field :skill1_3 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill1_4 %><br />
+    <%= f.text_field :skill1_4 %>
+  </div>
+  <div class="field">
+    <%= f.label :belonging1 %><br />
+    <%= f.text_field :belonging1 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforth1 %><br />
+    <%= f.number_field :efforth1 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforta1 %><br />
+    <%= f.number_field :efforta1 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortb1 %><br />
+    <%= f.number_field :effortb1 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortc1 %><br />
+    <%= f.number_field :effortc1 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortd1 %><br />
+    <%= f.number_field :effortd1 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforts1 %><br />
+    <%= f.number_field :efforts1 %>
+  </div>
+  <div class="field">
+    <%= f.label :role1 %><br />
+    <%= f.text_field :role1 %>
+  </div>
+  <div class="field">
+    <%= f.label :detail1 %><br />
+    <%= f.text_area :detail1 %>
+  </div>
+  <div class="field">
+    <%= f.label :name2 %><br />
+    <%= f.text_field :name2 %>
+  </div>
+  <div class="field">
+    <%= f.label :characteristic2 %><br />
+    <%= f.text_field :characteristic2 %>
+  </div>
+  <div class="field">
+    <%= f.label :personality2 %><br />
+    <%= f.text_field :personality2 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill2_1 %><br />
+    <%= f.text_field :skill2_1 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill2_2 %><br />
+    <%= f.text_field :skill2_2 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill2_3 %><br />
+    <%= f.text_field :skill2_3 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill2_4 %><br />
+    <%= f.text_field :skill2_4 %>
+  </div>
+  <div class="field">
+    <%= f.label :belonging2 %><br />
+    <%= f.text_field :belonging2 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforth2 %><br />
+    <%= f.number_field :efforth2 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforta2 %><br />
+    <%= f.number_field :efforta2 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortb2 %><br />
+    <%= f.number_field :effortb2 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortc2 %><br />
+    <%= f.number_field :effortc2 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortd2 %><br />
+    <%= f.number_field :effortd2 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforts2 %><br />
+    <%= f.number_field :efforts2 %>
+  </div>
+  <div class="field">
+    <%= f.label :role2 %><br />
+    <%= f.text_field :role2 %>
+  </div>
+  <div class="field">
+    <%= f.label :detail2 %><br />
+    <%= f.text_area :detail2 %>
+  </div>
+  <div class="field">
+    <%= f.label :name3 %><br />
+    <%= f.text_field :name3 %>
+  </div>
+  <div class="field">
+    <%= f.label :characteristic3 %><br />
+    <%= f.text_field :characteristic3 %>
+  </div>
+  <div class="field">
+    <%= f.label :personality3 %><br />
+    <%= f.text_field :personality3 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill3_1 %><br />
+    <%= f.text_field :skill3_1 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill3_2 %><br />
+    <%= f.text_field :skill3_2 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill3_3 %><br />
+    <%= f.text_field :skill3_3 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill3_4 %><br />
+    <%= f.text_field :skill3_4 %>
+  </div>
+  <div class="field">
+    <%= f.label :belonging3 %><br />
+    <%= f.text_field :belonging3 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforth3 %><br />
+    <%= f.number_field :efforth3 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforta3 %><br />
+    <%= f.number_field :efforta3 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortb3 %><br />
+    <%= f.number_field :effortb3 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortc3 %><br />
+    <%= f.number_field :effortc3 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortd3 %><br />
+    <%= f.number_field :effortd3 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforts3 %><br />
+    <%= f.number_field :efforts3 %>
+  </div>
+  <div class="field">
+    <%= f.label :role3 %><br />
+    <%= f.text_field :role3 %>
+  </div>
+  <div class="field">
+    <%= f.label :detail3 %><br />
+    <%= f.text_area :detail3 %>
+  </div>
+  <div class="field">
+    <%= f.label :name4 %><br />
+    <%= f.text_field :name4 %>
+  </div>
+  <div class="field">
+    <%= f.label :characteristic4 %><br />
+    <%= f.text_field :characteristic4 %>
+  </div>
+  <div class="field">
+    <%= f.label :personality4 %><br />
+    <%= f.text_field :personality4 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill4_1 %><br />
+    <%= f.text_field :skill4_1 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill4_2 %><br />
+    <%= f.text_field :skill4_2 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill4_3 %><br />
+    <%= f.text_field :skill4_3 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill4_4 %><br />
+    <%= f.text_field :skill4_4 %>
+  </div>
+  <div class="field">
+    <%= f.label :belonging4 %><br />
+    <%= f.text_field :belonging4 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforth4 %><br />
+    <%= f.number_field :efforth4 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforta4 %><br />
+    <%= f.number_field :efforta4 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortb4 %><br />
+    <%= f.number_field :effortb4 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortc4 %><br />
+    <%= f.number_field :effortc4 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortd4 %><br />
+    <%= f.number_field :effortd4 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforts4 %><br />
+    <%= f.number_field :efforts4 %>
+  </div>
+  <div class="field">
+    <%= f.label :role4 %><br />
+    <%= f.text_field :role4 %>
+  </div>
+  <div class="field">
+    <%= f.label :detail4 %><br />
+    <%= f.text_area :detail4 %>
+  </div>
+  <div class="field">
+    <%= f.label :name5 %><br />
+    <%= f.text_field :name5 %>
+  </div>
+  <div class="field">
+    <%= f.label :characteristic5 %><br />
+    <%= f.text_field :characteristic5 %>
+  </div>
+  <div class="field">
+    <%= f.label :personality5 %><br />
+    <%= f.text_field :personality5 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill5_1 %><br />
+    <%= f.text_field :skill5_1 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill5_2 %><br />
+    <%= f.text_field :skill5_2 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill5_3 %><br />
+    <%= f.text_field :skill5_3 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill5_4 %><br />
+    <%= f.text_field :skill5_4 %>
+  </div>
+  <div class="field">
+    <%= f.label :belonging5 %><br />
+    <%= f.text_field :belonging5 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforth5 %><br />
+    <%= f.number_field :efforth5 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforta5 %><br />
+    <%= f.number_field :efforta5 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortb5 %><br />
+    <%= f.number_field :effortb5 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortc5 %><br />
+    <%= f.number_field :effortc5 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortd5 %><br />
+    <%= f.number_field :effortd5 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforts5 %><br />
+    <%= f.number_field :efforts5 %>
+  </div>
+  <div class="field">
+    <%= f.label :role5 %><br />
+    <%= f.text_field :role5 %>
+  </div>
+  <div class="field">
+    <%= f.label :detail5 %><br />
+    <%= f.text_area :detail5 %>
+  </div>
+  <div class="field">
+    <%= f.label :name6 %><br />
+    <%= f.text_field :name6 %>
+  </div>
+  <div class="field">
+    <%= f.label :characteristic6 %><br />
+    <%= f.text_field :characteristic6 %>
+  </div>
+  <div class="field">
+    <%= f.label :personality6 %><br />
+    <%= f.text_field :personality6 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill6_1 %><br />
+    <%= f.text_field :skill6_1 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill6_6 %><br />
+    <%= f.text_field :skill6_6 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill6_3 %><br />
+    <%= f.text_field :skill6_3 %>
+  </div>
+  <div class="field">
+    <%= f.label :skill6_4 %><br />
+    <%= f.text_field :skill6_4 %>
+  </div>
+  <div class="field">
+    <%= f.label :belonging6 %><br />
+    <%= f.text_field :belonging6 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforth6 %><br />
+    <%= f.number_field :efforth6 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforta6 %><br />
+    <%= f.number_field :efforta6 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortb6 %><br />
+    <%= f.number_field :effortb6 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortc6 %><br />
+    <%= f.number_field :effortc6 %>
+  </div>
+  <div class="field">
+    <%= f.label :effortd6 %><br />
+    <%= f.number_field :effortd6 %>
+  </div>
+  <div class="field">
+    <%= f.label :efforts6 %><br />
+    <%= f.number_field :efforts6 %>
+  </div>
+  <div class="field">
+    <%= f.label :role6 %><br />
+    <%= f.text_field :role6 %>
+  </div>
+  <div class="field">
+    <%= f.label :detail6 %><br />
+    <%= f.text_area :detail6 %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

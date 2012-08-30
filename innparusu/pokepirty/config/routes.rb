@@ -1,4 +1,8 @@
 Pokepirty::Application.routes.draw do
+  resources :pokeparties
+
+  resources :skilldbs
+
   resources :pokedbs
 
   # The priority is based upon order of creation:

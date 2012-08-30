@@ -1,0 +1,59 @@
+<h1>Listing pokeparties</h1>
+
+<table>
+  <tr>
+    <th>Party</th>
+    <th>Battle</th>
+    <th>Win</th>
+    <th>Battletype</th>
+    <th>Rule</th>
+    <th>Shooter</th>
+    <th>Strategic</th>
+    <th>Name1</th>
+    <th>Role1</th>
+    <th>Name2</th>
+    <th>Role2</th>
+    <th>Name3</th>
+    <th>Role3</th>
+    <th>Name4</th>
+    <th>Role4</th>
+    <th>Name5</th>
+    <th>Role5</th>
+    <th>Name6</th>
+    <th>Role6</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @pokeparties.each do |pokeparty| %>
+  <tr>
+    <td><%= pokeparty.party %></td>
+    <td><%= pokeparty.battle %></td>
+    <td><%= pokeparty.win %></td>
+    <td><%= pokeparty.battletype %></td>
+    <td><%= pokeparty.rule %></td>
+    <td><%= pokeparty.shooter %></td>
+    <td><%= pokeparty.strategic %></td>
+    <td><%= pokeparty.name1 %></td>
+    <td><%= pokeparty.role1 %></td>
+    <td><%= pokeparty.name2 %></td>
+    <td><%= pokeparty.role2 %></td>
+    <td><%= pokeparty.name3 %></td>
+    <td><%= pokeparty.role3 %></td>
+    <td><%= pokeparty.name4 %></td>
+    <td><%= pokeparty.role4 %></td>
+    <td><%= pokeparty.name5 %></td>
+    <td><%= pokeparty.role5 %></td>
+    <td><%= pokeparty.name6 %></td>
+    <td><%= pokeparty.role6 %></td>
+    <td><%= link_to 'Show', pokeparty %></td>
+    <td><%= link_to 'Edit', edit_pokeparty_path(pokeparty) %></td>
+    <td><%= link_to 'Destroy', pokeparty, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Pokeparty', new_pokeparty_path %>

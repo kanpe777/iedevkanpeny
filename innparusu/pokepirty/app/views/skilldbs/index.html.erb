@@ -1,0 +1,21 @@
+<h1>Listing skilldbs</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @skilldbs.each do |skilldb| %>
+  <tr>
+    <td><%= link_to 'Show', skilldb %></td>
+    <td><%= link_to 'Edit', edit_skilldb_path(skilldb) %></td>
+    <td><%= link_to 'Destroy', skilldb, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Skilldb', new_skilldb_path %>
