@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  pirty_id: 1
+  poke_id: 1
+  characteristic: MyString
+  belonging: MyString
+  skill1: MyString
+  skill2: MyString
+  skill3: MyString
+  skill4: MyString
+  efforth: 1
+  efforta: 1
+  effortb: 1
+  effortc: 1
+  effortd: 1
+  efforts: 1
+
+two:
+  pirty_id: 1
+  poke_id: 1
+  characteristic: MyString
+  belonging: MyString
+  skill1: MyString
+  skill2: MyString
+  skill3: MyString
+  skill4: MyString
+  efforth: 1
+  efforta: 1
+  effortb: 1
+  effortc: 1
+  effortd: 1
+  efforts: 1

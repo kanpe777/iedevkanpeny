@@ -1,0 +1,38 @@
+<% if notice %>
+<p id="notice"><%= notice %></p>
+<% end %>
+
+<tr>
+  <td>
+    <b>パーティ名:</b><br>
+    <%= @pirty.name %>
+  </td>
+
+  <td>
+  <b>戦績</b>
+  <%= @pirty.battlecount %>中
+  </td>
+
+  <td>
+  <b>勝利数</b>
+  <%= @pirty.victorycount %>回
+  </td>
+
+  <td>
+  <b>対戦形式</b>
+  <%= @pirty.battleform %>
+  </td>
+
+  <td>
+  <b>ルール</b>
+  <%= @pirty.rule %>
+  </td>
+
+  <td>
+  <b>ミラクルシュータ</b>
+  <%= @pirty.miracleshooter %>
+  </td>
+</tr>
+
+<%= link_to '編集', edit_pirty_path(@pirty) %> |
+<%= link_to '戻る', pirties_path %>

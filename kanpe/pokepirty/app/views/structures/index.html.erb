@@ -1,0 +1,49 @@
+<h1>Listing structures</h1>
+
+<table>
+  <tr>
+    <th>Pirty</th>
+    <th>Poke</th>
+    <th>Characteristic</th>
+    <th>Belonging</th>
+    <th>Skill1</th>
+    <th>Skill2</th>
+    <th>Skill3</th>
+    <th>Skill4</th>
+    <th>Efforth</th>
+    <th>Efforta</th>
+    <th>Effortb</th>
+    <th>Effortc</th>
+    <th>Effortd</th>
+    <th>Efforts</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @structures.each do |structure| %>
+  <tr>
+    <td><%= structure.pirty_id %></td>
+    <td><%= structure.poke_id %></td>
+    <td><%= structure.characteristic %></td>
+    <td><%= structure.belonging %></td>
+    <td><%= structure.skill1 %></td>
+    <td><%= structure.skill2 %></td>
+    <td><%= structure.skill3 %></td>
+    <td><%= structure.skill4 %></td>
+    <td><%= structure.efforth %></td>
+    <td><%= structure.efforta %></td>
+    <td><%= structure.effortb %></td>
+    <td><%= structure.effortc %></td>
+    <td><%= structure.effortd %></td>
+    <td><%= structure.efforts %></td>
+    <td><%= link_to 'Show', structure %></td>
+    <td><%= link_to 'Edit', edit_structure_path(structure) %></td>
+    <td><%= link_to 'Destroy', structure, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Structure', new_structure_path %>

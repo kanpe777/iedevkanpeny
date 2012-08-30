@@ -1,4 +1,4 @@
-<h1>Listing pokedbs</h1>
+<h1>ポケモン 一覧</h1>
 
 <table>
 <!--
@@ -22,14 +22,19 @@
     <th></th>
   </tr>
   -->
+  <tr> 
+    <td>No.</td>
+    <td>名前</td>
+    <td>タイプ</td>
+    <td>特性</td>
+    <td>種族値</td>
+  </tr>
 <% @pokedbs.each do |pokedb| %>
   <tr class="<%= cycle('list_line_odd', 'list_line_even') %>" >
-    <td><%= pokedb.number %></td>
-    
-    
+    <td><%= pokedb.number %></td>    
     <td>
       <%= pokedb.name %><br>
-      <%= image_tag(pokedb.image_url, class: 'list_image') %>
+      <!--<%= image_tag(pokedb.image_url, class: 'list_image') %>-->
     </td>
 
     <td class="list_description">
@@ -39,14 +44,12 @@
       </dl>
     </td>
 
-    
-    
     <td>
       <%= pokedb.characteristic1 %><br>
       <%= pokedb.characteristic2 %><br>
-      <%= pokedb.characteristic3 %>
+      <%= pokedb.characteristic3 %>(夢)
     </td>
-
+    
     <td>
       HP<br>
       <%= pokedb.baseh %>
@@ -74,7 +77,8 @@
     <td>
       <%= link_to 'Show', pokedb %><br>
       <%= link_to 'Edit', edit_pokedb_path(pokedb) %><br>
-      <%= link_to 'Destroy', pokedb, confirm: 'Are you sure?', method: :delete %>
+      <!--<%= link_to 'Destroy', pokedb, confirm: 'Are you sure?', method: :delete %>-->
+      <%= button_to 'パーティに追加', structure_path(pokedb_id: pokedb) %><br>
     </td>
   </tr>
 <% end %>

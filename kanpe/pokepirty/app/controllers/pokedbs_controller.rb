@@ -1,3 +1,4 @@
+# encoding utf-8
 class PokedbsController < ApplicationController
   # GET /pokedbs
   # GET /pokedbs.json

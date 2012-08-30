@@ -1,0 +1,41 @@
+<%= form_for(@pirty) do |f| %>
+  <% if @pirty.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@pirty.errors.count, "error") %> prohibited this pirty from being saved:</h2>
+
+      <ul>
+      <% @pirty.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :battlecount %><br />
+    <%= f.number_field :battlecount %>
+  </div>
+  <div class="field">
+    <%= f.label :victorycount %><br />
+    <%= f.number_field :victorycount %>
+  </div>
+  <div class="field">
+    <%= f.label :battleform %><br />
+    <%= f.text_field :battleform %>
+  </div>
+  <div class="field">
+    <%= f.label :rule %><br />
+    <%= f.text_field :rule %>
+  </div>
+  <div class="field">
+    <%= f.label :miracleshooter %><br />
+    <%= f.text_field :miracleshooter %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

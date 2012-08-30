@@ -1,0 +1,429 @@
+<%= form_for(@pokeparty) do |f| %>
+  <% if @pokeparty.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@pokeparty.errors.count, "error") %> prohibited this pokeparty from being saved:</h2>
+
+      <ul>
+      <% @pokeparty.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :party %><br />
+    <%= f.text_field :party %>
+  </div>
+  <div class="field">
+    <%= f.label :battlec %><br />
+    <%= f.number_field :battlec %>
+  </div>
+  <div class="field">
+    <%= f.label :winc %><br />
+    <%= f.number_field :winc %>
+  </div>
+  <div class="field">
+    <%= f.label :battletype %><br />
+    <%= f.text_field :battletype %>
+  </div>
+  <div class="field">
+    <%= f.label :rule %><br />
+    <%= f.text_field :rule %>
+  </div>
+  <div class="field">
+    <%= f.label :shooter %><br />
+    <%= f.text_field :shooter %>
+  </div>
+  <div class="field">
+    <%= f.label :strategic %><br />
+    <%= f.text_area :strategic %>
+  </div>
+  <div class="field">
+    <%= f.label :p1name %><br />
+    <%= f.text_field :p1name %>
+  </div>
+  <div class="field">
+    <%= f.label :p1abilites %><br />
+    <%= f.text_field :p1abilites %>
+  </div>
+  <div class="field">
+    <%= f.label :p1personality %><br />
+    <%= f.text_field :p1personality %>
+  </div>
+  <div class="field">
+    <%= f.label :p1belonging %><br />
+    <%= f.text_field :p1belonging %>
+  </div>
+  <div class="field">
+    <%= f.label :p1role %><br />
+    <%= f.text_field :p1role %>
+  </div>
+  <div class="field">
+    <%= f.label :p1trick1 %><br />
+    <%= f.text_field :p1trick1 %>
+  </div>
+  <div class="field">
+    <%= f.label :p1trick2 %><br />
+    <%= f.text_field :p1trick2 %>
+  </div>
+  <div class="field">
+    <%= f.label :p1trick3 %><br />
+    <%= f.text_field :p1trick3 %>
+  </div>
+  <div class="field">
+    <%= f.label :p1trick4 %><br />
+    <%= f.text_field :p1trick4 %>
+  </div>
+  <div class="field">
+    <%= f.label :p1evh %><br />
+    <%= f.number_field :p1evh %>
+  </div>
+  <div class="field">
+    <%= f.label :p1eva %><br />
+    <%= f.number_field :p1eva %>
+  </div>
+  <div class="field">
+    <%= f.label :p1evb %><br />
+    <%= f.number_field :p1evb %>
+  </div>
+  <div class="field">
+    <%= f.label :p1evc %><br />
+    <%= f.number_field :p1evc %>
+  </div>
+  <div class="field">
+    <%= f.label :p1evd %><br />
+    <%= f.number_field :p1evd %>
+  </div>
+  <div class="field">
+    <%= f.label :p1evs %><br />
+    <%= f.number_field :p1evs %>
+  </div>
+  <div class="field">
+    <%= f.label :p1detail %><br />
+    <%= f.text_area :p1detail %>
+  </div>
+  <div class="field">
+    <%= f.label :p2name %><br />
+    <%= f.text_field :p2name %>
+  </div>
+  <div class="field">
+    <%= f.label :p2abilites %><br />
+    <%= f.text_field :p2abilites %>
+  </div>
+  <div class="field">
+    <%= f.label :p2personality %><br />
+    <%= f.text_field :p2personality %>
+  </div>
+  <div class="field">
+    <%= f.label :p2belonging %><br />
+    <%= f.text_field :p2belonging %>
+  </div>
+  <div class="field">
+    <%= f.label :p2role %><br />
+    <%= f.text_field :p2role %>
+  </div>
+  <div class="field">
+    <%= f.label :p2trick1 %><br />
+    <%= f.text_field :p2trick1 %>
+  </div>
+  <div class="field">
+    <%= f.label :p2trick2 %><br />
+    <%= f.text_field :p2trick2 %>
+  </div>
+  <div class="field">
+    <%= f.label :p2trick3 %><br />
+    <%= f.text_field :p2trick3 %>
+  </div>
+  <div class="field">
+    <%= f.label :p2trick4 %><br />
+    <%= f.text_field :p2trick4 %>
+  </div>
+  <div class="field">
+    <%= f.label :p2evh %><br />
+    <%= f.number_field :p2evh %>
+  </div>
+  <div class="field">
+    <%= f.label :p2eva %><br />
+    <%= f.number_field :p2eva %>
+  </div>
+  <div class="field">
+    <%= f.label :p2evb %><br />
+    <%= f.number_field :p2evb %>
+  </div>
+  <div class="field">
+    <%= f.label :p2evc %><br />
+    <%= f.number_field :p2evc %>
+  </div>
+  <div class="field">
+    <%= f.label :p2evd %><br />
+    <%= f.number_field :p2evd %>
+  </div>
+  <div class="field">
+    <%= f.label :p2evs %><br />
+    <%= f.number_field :p2evs %>
+  </div>
+  <div class="field">
+    <%= f.label :p2detail %><br />
+    <%= f.text_area :p2detail %>
+  </div>
+  <div class="field">
+    <%= f.label :p3name %><br />
+    <%= f.text_field :p3name %>
+  </div>
+  <div class="field">
+    <%= f.label :p3abilites %><br />
+    <%= f.text_field :p3abilites %>
+  </div>
+  <div class="field">
+    <%= f.label :p3personality %><br />
+    <%= f.text_field :p3personality %>
+  </div>
+  <div class="field">
+    <%= f.label :p3belonging %><br />
+    <%= f.text_field :p3belonging %>
+  </div>
+  <div class="field">
+    <%= f.label :p3role %><br />
+    <%= f.text_field :p3role %>
+  </div>
+  <div class="field">
+    <%= f.label :p3trick1 %><br />
+    <%= f.text_field :p3trick1 %>
+  </div>
+  <div class="field">
+    <%= f.label :p3trick2 %><br />
+    <%= f.text_field :p3trick2 %>
+  </div>
+  <div class="field">
+    <%= f.label :p3trick3 %><br />
+    <%= f.text_field :p3trick3 %>
+  </div>
+  <div class="field">
+    <%= f.label :p3trick4 %><br />
+    <%= f.text_field :p3trick4 %>
+  </div>
+  <div class="field">
+    <%= f.label :p3evh %><br />
+    <%= f.number_field :p3evh %>
+  </div>
+  <div class="field">
+    <%= f.label :p3eva %><br />
+    <%= f.number_field :p3eva %>
+  </div>
+  <div class="field">
+    <%= f.label :p3evb %><br />
+    <%= f.number_field :p3evb %>
+  </div>
+  <div class="field">
+    <%= f.label :p3evc %><br />
+    <%= f.number_field :p3evc %>
+  </div>
+  <div class="field">
+    <%= f.label :p3evd %><br />
+    <%= f.number_field :p3evd %>
+  </div>
+  <div class="field">
+    <%= f.label :p3evs %><br />
+    <%= f.number_field :p3evs %>
+  </div>
+  <div class="field">
+    <%= f.label :p3detail %><br />
+    <%= f.text_area :p3detail %>
+  </div>
+  <div class="field">
+    <%= f.label :p4name %><br />
+    <%= f.text_field :p4name %>
+  </div>
+  <div class="field">
+    <%= f.label :p4abilites %><br />
+    <%= f.text_field :p4abilites %>
+  </div>
+  <div class="field">
+    <%= f.label :p4personality %><br />
+    <%= f.text_field :p4personality %>
+  </div>
+  <div class="field">
+    <%= f.label :p4belonging %><br />
+    <%= f.text_field :p4belonging %>
+  </div>
+  <div class="field">
+    <%= f.label :p4role %><br />
+    <%= f.text_field :p4role %>
+  </div>
+  <div class="field">
+    <%= f.label :p4trick1 %><br />
+    <%= f.text_field :p4trick1 %>
+  </div>
+  <div class="field">
+    <%= f.label :p4trick2 %><br />
+    <%= f.text_field :p4trick2 %>
+  </div>
+  <div class="field">
+    <%= f.label :p4trick3 %><br />
+    <%= f.text_field :p4trick3 %>
+  </div>
+  <div class="field">
+    <%= f.label :p4trick4 %><br />
+    <%= f.text_field :p4trick4 %>
+  </div>
+  <div class="field">
+    <%= f.label :p4evh %><br />
+    <%= f.number_field :p4evh %>
+  </div>
+  <div class="field">
+    <%= f.label :p4eva %><br />
+    <%= f.number_field :p4eva %>
+  </div>
+  <div class="field">
+    <%= f.label :p4evb %><br />
+    <%= f.number_field :p4evb %>
+  </div>
+  <div class="field">
+    <%= f.label :p4evc %><br />
+    <%= f.number_field :p4evc %>
+  </div>
+  <div class="field">
+    <%= f.label :p4evd %><br />
+    <%= f.number_field :p4evd %>
+  </div>
+  <div class="field">
+    <%= f.label :p4evs %><br />
+    <%= f.number_field :p4evs %>
+  </div>
+  <div class="field">
+    <%= f.label :p4detail %><br />
+    <%= f.text_area :p4detail %>
+  </div>
+  <div class="field">
+    <%= f.label :p5name %><br />
+    <%= f.text_field :p5name %>
+  </div>
+  <div class="field">
+    <%= f.label :p5abilites %><br />
+    <%= f.text_field :p5abilites %>
+  </div>
+  <div class="field">
+    <%= f.label :p5personality %><br />
+    <%= f.text_field :p5personality %>
+  </div>
+  <div class="field">
+    <%= f.label :p5belonging %><br />
+    <%= f.text_field :p5belonging %>
+  </div>
+  <div class="field">
+    <%= f.label :p5role %><br />
+    <%= f.text_field :p5role %>
+  </div>
+  <div class="field">
+    <%= f.label :p5trick1 %><br />
+    <%= f.text_field :p5trick1 %>
+  </div>
+  <div class="field">
+    <%= f.label :p5trick2 %><br />
+    <%= f.text_field :p5trick2 %>
+  </div>
+  <div class="field">
+    <%= f.label :p5trick3 %><br />
+    <%= f.text_field :p5trick3 %>
+  </div>
+  <div class="field">
+    <%= f.label :p5trick4 %><br />
+    <%= f.text_field :p5trick4 %>
+  </div>
+  <div class="field">
+    <%= f.label :p5evh %><br />
+    <%= f.number_field :p5evh %>
+  </div>
+  <div class="field">
+    <%= f.label :p5eva %><br />
+    <%= f.number_field :p5eva %>
+  </div>
+  <div class="field">
+    <%= f.label :p5evb %><br />
+    <%= f.number_field :p5evb %>
+  </div>
+  <div class="field">
+    <%= f.label :p5evc %><br />
+    <%= f.number_field :p5evc %>
+  </div>
+  <div class="field">
+    <%= f.label :p5evd %><br />
+    <%= f.number_field :p5evd %>
+  </div>
+  <div class="field">
+    <%= f.label :p5evs %><br />
+    <%= f.number_field :p5evs %>
+  </div>
+  <div class="field">
+    <%= f.label :p5detail %><br />
+    <%= f.text_area :p5detail %>
+  </div>
+  <div class="field">
+    <%= f.label :p6name %><br />
+    <%= f.text_field :p6name %>
+  </div>
+  <div class="field">
+    <%= f.label :p6abilites %><br />
+    <%= f.text_field :p6abilites %>
+  </div>
+  <div class="field">
+    <%= f.label :p6personality %><br />
+    <%= f.text_field :p6personality %>
+  </div>
+  <div class="field">
+    <%= f.label :p6belonging %><br />
+    <%= f.text_field :p6belonging %>
+  </div>
+  <div class="field">
+    <%= f.label :p6role %><br />
+    <%= f.text_field :p6role %>
+  </div>
+  <div class="field">
+    <%= f.label :p6trick1 %><br />
+    <%= f.text_field :p6trick1 %>
+  </div>
+  <div class="field">
+    <%= f.label :p6trick2 %><br />
+    <%= f.text_field :p6trick2 %>
+  </div>
+  <div class="field">
+    <%= f.label :p6trick3 %><br />
+    <%= f.text_field :p6trick3 %>
+  </div>
+  <div class="field">
+    <%= f.label :p6trick4 %><br />
+    <%= f.text_field :p6trick4 %>
+  </div>
+  <div class="field">
+    <%= f.label :p6evh %><br />
+    <%= f.number_field :p6evh %>
+  </div>
+  <div class="field">
+    <%= f.label :p6eva %><br />
+    <%= f.number_field :p6eva %>
+  </div>
+  <div class="field">
+    <%= f.label :p6evb %><br />
+    <%= f.number_field :p6evb %>
+  </div>
+  <div class="field">
+    <%= f.label :p6evc %><br />
+    <%= f.number_field :p6evc %>
+  </div>
+  <div class="field">
+    <%= f.label :p6evd %><br />
+    <%= f.number_field :p6evd %>
+  </div>
+  <div class="field">
+    <%= f.label :p6evs %><br />
+    <%= f.number_field :p6evs %>
+  </div>
+  <div class="field">
+    <%= f.label :p6detail %><br />
+    <%= f.text_area :p6detail %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

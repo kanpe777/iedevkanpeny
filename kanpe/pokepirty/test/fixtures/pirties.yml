@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  battlecount: 1
+  victorycount: 1
+  battleform: MyString
+  rule: MyString
+  miracleshooter: MyString
+
+two:
+  name: MyString
+  battlecount: 1
+  victorycount: 1
+  battleform: MyString
+  rule: MyString
+  miracleshooter: MyString

@@ -1,0 +1,33 @@
+<h1>Listing pirties</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Battlecount</th>
+    <th>Victorycount</th>
+    <th>Battleform</th>
+    <th>Rule</th>
+    <th>Miracleshooter</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @pirties.each do |pirty| %>
+  <tr>
+    <td><%= pirty.name %></td>
+    <td><%= pirty.battlecount %></td>
+    <td><%= pirty.victorycount %></td>
+    <td><%= pirty.battleform %></td>
+    <td><%= pirty.rule %></td>
+    <td><%= pirty.miracleshooter %></td>
+    <td><%= link_to 'Show', pirty %></td>
+    <td><%= link_to 'Edit', edit_pirty_path(pirty) %></td>
+    <td><%= link_to 'Destroy', pirty, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Pirty', new_pirty_path %>

@@ -1,0 +1,145 @@
+<h1>俺のパーティのどこが悪い</h1>
+
+<table>
+<!--  <tr>
+    <th>Party</th>
+    <th>Battlec</th>
+    <th>Winc</th>
+    <th>Battletype</th>
+    <th>Rule</th>
+    <th>Shooter</th>
+    <th>Strategic</th>
+    <th>P1name</th>
+    <th>P1abilites</th>
+    <th>P1personality</th>
+    <th>P1belonging</th>
+    <th>P1role</th>
+    <th>P1trick1</th>
+    <th>P1trick2</th>
+    <th>P1trick3</th>
+    <th>P1trick4</th>
+    <th>P1evh</th>
+    <th>P1eva</th>
+    <th>P1evb</th>
+    <th>P1evc</th>
+    <th>P1evd</th>
+    <th>P1evs</th>
+    <th>P1detail</th>
+    <th>P2name</th>
+    <th>P2abilites</th>
+    <th>P2personality</th>
+    <th>P2belonging</th>
+    <th>P2role</th>
+    <th>P2trick1</th>
+    <th>P2trick2</th>
+    <th>P2trick3</th>
+    <th>P2trick4</th>
+    <th>P2evh</th>
+    <th>P2eva</th>
+    <th>P2evb</th>
+    <th>P2evc</th>
+    <th>P2evd</th>
+    <th>P2evs</th>
+    <th>P2detail</th>
+    <th>P3name</th>
+    <th>P3abilites</th>
+    <th>P3personality</th>
+    <th>P3belonging</th>
+    <th>P3role</th>
+    <th>P3trick1</th>
+    <th>P3trick2</th>
+    <th>P3trick3</th>
+    <th>P3trick4</th>
+    <th>P3evh</th>
+    <th>P3eva</th>
+    <th>P3evb</th>
+    <th>P3evc</th>
+    <th>P3evd</th>
+    <th>P3evs</th>
+    <th>P3detail</th>
+    <th>P4name</th>
+    <th>P4abilites</th>
+    <th>P4personality</th>
+    <th>P4belonging</th>
+    <th>P4role</th>
+    <th>P4trick1</th>
+    <th>P4trick2</th>
+    <th>P4trick3</th>
+    <th>P4trick4</th>
+    <th>P4evh</th>
+    <th>P4eva</th>
+    <th>P4evb</th>
+    <th>P4evc</th>
+    <th>P4evd</th>
+    <th>P4evs</th>
+    <th>P4detail</th>
+    <th>P5name</th>
+    <th>P5abilites</th>
+    <th>P5personality</th>
+    <th>P5belonging</th>
+    <th>P5role</th>
+    <th>P5trick1</th>
+    <th>P5trick2</th>
+    <th>P5trick3</th>
+    <th>P5trick4</th>
+    <th>P5evh</th>
+    <th>P5eva</th>
+    <th>P5evb</th>
+    <th>P5evc</th>
+    <th>P5evd</th>
+    <th>P5evs</th>
+    <th>P5detail</th>
+    <th>P6name</th>
+    <th>P6abilites</th>
+    <th>P6personality</th>
+    <th>P6belonging</th>
+    <th>P6role</th>
+    <th>P6trick1</th>
+    <th>P6trick2</th>
+    <th>P6trick3</th>
+    <th>P6trick4</th>
+    <th>P6evh</th>
+    <th>P6eva</th>
+    <th>P6evb</th>
+    <th>P6evc</th>
+    <th>P6evd</th>
+    <th>P6evs</th>
+    <th>P6detail</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  -->
+<% @pokeparties.each do |pokeparty| %>
+  <table>
+      <caption>
+        <b>パーティ名:<%= pokeparty.party %></b><br>
+        戦績:<%= pokeparty.battlec %>回中
+        <%= pokeparty.winc %>回勝利<br>
+        対戦形式:<%= pokeparty.battletype %>　
+        ルール:<%= pokeparty.rule %>　
+        ミラクルシュータ:<%= pokeparty.shooter %>
+      </caption>
+   <tr> 
+    <td>
+        <% (1..6).each do |no| %>
+        <%= eval("pokeparty.p#{no}name") %>
+        <%= eval("pokeparty.p#{no}abilites") %>
+        <%= eval("pokeparty.p#{no}personality") %>
+        <%= eval("pokeparty.p#{no}belonging") %>
+        <%= eval("pokeparty.p#{no}role") %><br>
+        <% end %>
+    </td>
+
+    <td><%= link_to 'Show', pokeparty %><br>
+        <%= link_to 'Edit', edit_pokeparty_path(pokeparty) %><br>
+        <%= link_to 'Destroy', pokeparty, confirm: 'Are you sure?', method: :delete %>
+    </td>
+  </tr>
+  </table>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Pokeparty', new_pokeparty_path %>
