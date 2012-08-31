@@ -137,9 +137,9 @@
         <% end %>
     </td>
 
-    <td><%= link_to 'Show', pokeparty %><br>
-        <%= link_to 'Edit', edit_pokeparty_path(pokeparty) %><br>
-        <%= link_to 'Destroy', pokeparty, confirm: 'Are you sure?', method: :delete %>
+    <td><%= link_to '詳細', pokeparty %><br>
+        <%= link_to '編集', edit_pokeparty_path(pokeparty) %><br>
+        <%= link_to '削除', pokeparty, confirm: 'Are you sure?', method: :delete %>
     </td>
   </tr>
   </table><br>
@@ -148,4 +148,4 @@
 
 <br />
 
-<%= link_to 'New Pokeparty', new_pokeparty_path %>
+<%= link_to 'パーティー追加', new_pokeparty_path %>

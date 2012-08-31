@@ -15,94 +15,88 @@
     パーティ名
     <%= f.text_field :party %>
   </div>
-  <div class="field">
+    <div class="field">
     対戦回数
     <%= f.number_field :battlec %>
   </div>
   <div class="field">
-    勝利数　
+    勝利数
     <%= f.number_field :winc %>
   </div>
   <div class="field">
-    <%= f.label :battletype %><br />
-    <%= f.text_field :battletype %>
+    対戦形式
+      <select size="1" <%= f.text_field :battletype %>>
+        <option value="シングルバトル">シングルバトル</option>
+        <option value="ダブルバトル" >ダブルバトル</option>
+      </select>
   </div>
   <div class="field">
-    <%= f.label :rule %><br />
+    ルール
     <%= f.text_field :rule %>
   </div>
   <div class="field">
-    <%= f.label :shooter %><br />
-    <%= f.text_field :shooter %>
+    ミラクルシューター
+      <select size="1" <%= f.text_field :shooter%>>
+        <option value="あり">あり</option>
+        <option value="なし" >なし</option>
+      </select>
   </div>
   <div class="field">
-    <%= f.label :strategic %><br />
+    立ち回り<br>
     <%= f.text_area :strategic %>
   </div>
 
   <% (1..6).each do |no| %>
+    <h3><%= eval("#{no}") %>匹目</h3>
   <div class="field">
-    <%= eval("f.label :p#{no}name") %><br />
+    ポケモン
     <%= eval("f.text_field :p#{no}name") %>
-  </div>
-  <div class="field">
-    <%= eval("f.label :p#{no}abilites") %><br />
+    とくせい
     <%= eval("f.text_field :p#{no}abilites") %>
   </div>
   <div class="field">
-    <%= eval("f.label :p#{no}personality") %><br />
+    せいかく
     <%= eval("f.text_field :p#{no}personality") %>
-  </div>
-  <div class="field">
-    <%= eval("f.label :p#{no}belonging") %><br />
+    持ち物
     <%= eval("f.text_field :p#{no}belonging") %>
   </div>
   <div class="field">
-    <%= eval("f.label :p#{no}role") %><br />
+    役割
     <%= eval("f.text_field :p#{no}role") %>
   </div>
   <div class="field">
-    <%= eval("f.label :p#{no}trick1") %><br />
+    技1
     <%= eval("f.text_field :p#{no}trick1") %>
-  </div>
-  <div class="field">
-    <%= eval("f.label :p#{no}trick2") %><br />
+    技2 
     <%= eval("f.text_field :p#{no}trick2") %>
   </div>
   <div class="field">
-    <%= eval("f.label :p#{no}trick3") %><br />
+    技3
     <%= eval("f.text_field :p#{no}trick3") %>
-  </div>
-  <div class="field">
-    <%= eval("f.label :p#{no}trick4") %><br />
+    技4
     <%= eval("f.text_field :p#{no}trick4") %>
   </div>
+  <h4> 努力値配分 </h4>
   <div class="field">
-    <%= eval("f.label :p#{no}evh") %><br />
+    HP努力値 
     <%= eval("f.number_field :p#{no}evh") %>
-  </div>
-  <div class="field">
-    <%= eval("f.label :p#{no}eva") %><br />
+    攻撃努力値
     <%= eval("f.number_field :p#{no}eva") %>
   </div>
   <div class="field">
-    <%= eval("f.label :p#{no}evb") %><br />
+    防御努力値
     <%= eval("f.number_field :p#{no}evb") %>
-  </div>
-  <div class="field">
-    <%= eval("f.label :p#{no}evc") %><br />
+    特攻努力値
     <%= eval("f.number_field :p#{no}evc") %>
   </div>
   <div class="field">
-    <%= eval("f.label :p#{no}evd") %><br />
+    特防努力値
     <%= eval("f.number_field :p#{no}evd") %>
-  </div>
-  <div class="field">
-    <%= eval("f.label :p#{no}evs") %><br />
+    すばやさ努力値
     <%= eval("f.number_field :p#{no}evs") %>
   </div>
   <div class="field">
-    <%= eval("f.label :p#{no}detail") %><br />
+    <h4>役割詳細</h4>
     <%= eval("f.text_area :p#{no}detail") %>
   </div>
   <% end %>

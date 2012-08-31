@@ -1,75 +1,73 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Number:</b>
+  <b>図鑑No</b>
   <%= @pokedb.number %>
 </p>
 
 <p>
-  <b>Image url:</b>
-  <%= @pokedb.image_url %>
-</p>
-
-<p>
-  <b>Name:</b>
+  <b>ポケモン名</b>
   <%= @pokedb.name %>
 </p>
+<p>
+<%= image_tag (@pokedb.image_url)%>
+</p>
 
 <p>
-  <b>Type1:</b>
+  <b>タイプ1</b>
   <%= @pokedb.type1 %>
 </p>
 
 <p>
-  <b>Type2:</b>
+  <b>タイプ2</b>
   <%= @pokedb.type2 %>
 </p>
 
 <p>
-  <b>Characteristic1:</b>
+  <b>特性1</b>
   <%= @pokedb.characteristic1 %>
 </p>
 
 <p>
-  <b>Characteristic2:</b>
+  <b>特性2</b>
   <%= @pokedb.characteristic2 %>
 </p>
 
 <p>
-  <b>Characteristic3:</b>
+  <b>夢特性</b>
   <%= @pokedb.characteristic3 %>
 </p>
 
 <p>
-  <b>Baseh:</b>
+  <b>HP</b>
   <%= @pokedb.baseh %>
 </p>
 
 <p>
-  <b>Basea:</b>
+  <b>こうげき</b>
   <%= @pokedb.basea %>
 </p>
 
 <p>
-  <b>Baseb:</b>
+  <b>ぼうぎょ</b>
   <%= @pokedb.baseb %>
 </p>
 
 <p>
-  <b>Basec:</b>
+  <b>とくこう</b>
   <%= @pokedb.basec %>
 </p>
 
 <p>
-  <b>Based:</b>
+  <b>とくぼう</b>
   <%= @pokedb.based %>
 </p>
 
 <p>
-  <b>Bases:</b>
+  <b>すばやさ</b>
   <%= @pokedb.bases %>
 </p>
 
 
-<%= link_to 'Edit', edit_pokedb_path(@pokedb) %> |
-<%= link_to 'Back', pokedbs_path %>
+<!-- <%= link_to 'Edit', edit_pokedb_path(@pokedb) %> |
+<%= link_to 'Back', pokedbs_path %> -->
