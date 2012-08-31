@@ -3,7 +3,6 @@ class PokepartiesController < ApplicationController
   # GET /pokeparties.json
   def index
     @pokeparties = Pokeparty.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @pokeparties }
@@ -14,7 +13,12 @@ class PokepartiesController < ApplicationController
   # GET /pokeparties/1.json
   def show
     @pokeparty = Pokeparty.find(params[:id])
-
+    @poke1   = Pokedb.find_by_name(@pokeparty.p1name)
+    @poke2   = Pokedb.find_by_name(@pokeparty.p2name)
+    @poke3   = Pokedb.find_by_name(@pokeparty.p3name)
+    @poke4   = Pokedb.find_by_name(@pokeparty.p4name)
+    @poke5   = Pokedb.find_by_name(@pokeparty.p5name)
+    @poke6   = Pokedb.find_by_name(@pokeparty.p6name)
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @pokeparty }

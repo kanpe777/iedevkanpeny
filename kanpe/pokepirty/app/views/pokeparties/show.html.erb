@@ -30,7 +30,7 @@
 <br>
 <p>
   <b>名前:</b>
-  <%= eval("@pokeparty.p#{no}name") %>
+  <%= eval("link_to @pokeparty.p#{no}name, @poke#{no}") %> 
   <b>　特性:</b>
   <%= eval("@pokeparty.p#{no}abilites") %>
   <b>　性格:</b>
