@@ -1,0 +1,39 @@
+<h1>Listing skilldbs</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Skillname</th>
+    <th>Skilltype</th>
+    <th>Skillpower</th>
+    <th>Skillhit</th>
+    <th>Skillpp</th>
+    <th>Skillkind</th>
+    <th>Skillscope</th>
+    <th>Skilleffect</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @skilldbs.each do |skilldb| %>
+  <tr>
+    <td><%= skilldb.id %></td>
+    <td><%= skilldb.skillname %></td>
+    <td><%= skilldb.skilltype %></td>
+    <td><%= skilldb.skillpower %></td>
+    <td><%= skilldb.skillhit %></td>
+    <td><%= skilldb.skillpp %></td>
+    <td><%= skilldb.skillkind %></td>
+    <td><%= skilldb.skillscope %></td>
+    <td><%= skilldb.skilleffect %></td>
+    <td><%= link_to 'Show', skilldb %></td>
+    <!--<td><%= link_to 'Edit', edit_skilldb_path(skilldb) %></td>
+    <td><%= link_to 'Destroy', skilldb, confirm: 'Are you sure?', method: :delete %></td> -->
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<!-- <%= link_to 'New Skilldb', new_skilldb_path %>-->

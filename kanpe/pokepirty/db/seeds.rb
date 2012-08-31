@@ -9937,6 +9937,5598 @@ Pokedb.create(number:          649,
   based:           95,
   bases:           99)
 
+Skilldb.delete_all
+Skilldb.create(id:          1,
+  skillname:            'アームハンマー',
+  skilltype:           'かくとう',
+  skillpower:           100,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '自分の「すばやさ」が1段階下がる')
+
+Skilldb.create(id:          2,
+  skillname:            'アイアンテール',
+  skilltype:           'はがね',
+  skillpower:           100,
+  skillhit:           75,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手の「ぼうぎょ」を1段階下げる')
+
+Skilldb.create(id:          3,
+  skillname:            'アイアンヘッド',
+  skilltype:           'はがね',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手をひるませる（そのターンの相手のわざをふうじる）')
+
+Skilldb.create(id:          4,
+  skillname:            'アイスボール',
+  skilltype:           'こおり',
+  skillpower:           30,
+  skillhit:           90,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'はずれるまで5ターン連続で攻撃。攻撃が当たるたびにダメージが増える')
+
+Skilldb.create(id:          5,
+  skillname:            'あおいほのお',
+  skilltype:           'ほのお',
+  skillpower:           130,
+  skillhit:           85,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '美しくも激しい青い炎で相手を包みこんで攻撃する。やけど状態にすることがある。')
+
+Skilldb.create(id:          6,
+  skillname:            'アクアジェット',
+  skilltype:           'みず',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '必ず先制攻撃ができる')
+
+Skilldb.create(id:          7,
+  skillname:            'アクアテール',
+  skilltype:           'みず',
+  skillpower:           90,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          8,
+  skillname:            'アクアリング',
+  skilltype:           'みず',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '毎ターン少しずつHPが回復する')
+
+Skilldb.create(id:          9,
+  skillname:            'あくうせつだん',
+  skilltype:           'ドラゴン',
+  skillpower:           100,
+  skillhit:           95,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '急所にあたりやすい')
+
+Skilldb.create(id:          10,
+  skillname:            'あくのはどう',
+  skilltype:           'あく',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '20％の確率で相手をひるませる（そのターンの相手のわざをふうじる）')
+
+Skilldb.create(id:          11,
+  skillname:            'あくび',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           'つぎのターン終了時に相手を「ねむり」状態にする。それまでに交代されると効果はない')
+
+Skilldb.create(id:          12,
+  skillname:            'あくまのキッス',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           75,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「ねむり」状態にする')
+
+Skilldb.create(id:          13,
+  skillname:            'あくむ',
+  skilltype:           'ゴースト',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手が「ねむり」状態のときだけだけ、相手のHPを毎ターン4分の1づつへらす')
+
+Skilldb.create(id:          14,
+  skillname:            'アクロバット',
+  skilltype:           'ひこう',
+  skillpower:           55,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '軽やかに相手を攻撃する。自分が道具を持っていないとき大きなダメージを与える。')
+
+Skilldb.create(id:          15,
+  skillname:            'あさのひざし',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'HPを回復する。回復量は天気によって変わる')
+
+Skilldb.create(id:          16,
+  skillname:            'アシストパワー',
+  skilltype:           'エスパー',
+  skillpower:           20,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '蓄積されたパワーで相手を攻撃する。自分の能力があがっているほど威力があがる。')
+
+Skilldb.create(id:          17,
+  skillname:            'アシッドボム',
+  skilltype:           'どく',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手をとかす液体を吐きだして攻撃する。相手の特防をがくっとさげる。')
+
+Skilldb.create(id:          18,
+  skillname:            'あてみなげ',
+  skilltype:           'かくとう',
+  skillpower:           70,
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '後攻になるが、攻撃が必ず当たる')
+
+Skilldb.create(id:          19,
+  skillname:            'あなをほる',
+  skilltype:           'じめん',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンめに地中にもぐって、2ターンめに攻撃する/どうくつなどから脱出できる')
+
+Skilldb.create(id:          20,
+  skillname:            'あばれる',
+  skilltype:           'ノーマル',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '相手ランダム',
+  skilleffect:           '2～3ターン連続で攻撃する。効果が切れると自分が、「こんらん」状態になる')
+
+Skilldb.create(id:          21,
+  skillname:            'アフロブレイク',
+  skilltype:           'ノーマル',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'すごいアフロの頭で相手に突進して攻撃する。自分も少しダメージを受ける。')
+
+Skilldb.create(id:          22,
+  skillname:            'あまいかおり',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '相手全員',
+  skilleffect:           '相手の回避率を1段階下げる。/野生のポケモンがいるところで使うと必ず出現する')
+
+Skilldb.create(id:          23,
+  skillname:            'あまえる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の「こうげき」を2段階下げる')
+
+Skilldb.create(id:          24,
+  skillname:            'あまごい',
+  skilltype:           'みず',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '全体の場',
+  skilleffect:           '5ターンのあいだ、天気を「あめ」状態にして、みずタイプのわざの威力を上げる')
+
+Skilldb.create(id:          25,
+  skillname:            'あやしいかぜ',
+  skilltype:           'ゴースト',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で「こうげき」「ぼうぎょ」「すばやさ」「とくこう」「とくぼう」を1段階上げる')
+
+Skilldb.create(id:          26,
+  skillname:            'あやしいひかり',
+  skilltype:           'ゴースト',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「こんらん」状態にする')
+
+Skilldb.create(id:          27,
+  skillname:            'あられ',
+  skilltype:           'こおり',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '全体の場',
+  skilleffect:           '5ターンのあいだ、「あられ」状態にする。こおりタイプ以外は毎ターンダメージを受ける')
+
+Skilldb.create(id:          28,
+  skillname:            'アロマセラピー',
+  skilltype:           'くさ',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '味方全員',
+  skilleffect:           '味方すべてのポケモンの状態異常を治す')
+
+Skilldb.create(id:          29,
+  skillname:            'あわ',
+  skilltype:           'みず',
+  skillpower:           20,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '10％の確率で相手の「すばやさ」を1段階下げる')
+
+Skilldb.create(id:          30,
+  skillname:            'アンコール',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手が最後に使ったわざを、繰り返し出させる。効果は2～6ターンつづく')
+
+Skilldb.create(id:          31,
+  skillname:            'いあいぎり',
+  skilltype:           'ノーマル',
+  skillpower:           50,
+  skillhit:           95,
+  skillpp:           30,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          32,
+  skillname:            'いえき',
+  skilltype:           'どく',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の「とくせい」を無効化する')
+
+Skilldb.create(id:          33,
+  skillname:            'イカサマ',
+  skilltype:           'あく',
+  skillpower:           95,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手の力を利用する。戦っている相手の攻撃が高いほどダメージがあがる。')
+
+Skilldb.create(id:          34,
+  skillname:            'いかり',
+  skilltype:           'ノーマル',
+  skillpower:           20,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手の攻撃が当たるたびに、わざの威力が上がる')
+
+Skilldb.create(id:          35,
+  skillname:            'いかりのこな',
+  skilltype:           'むし',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'イライラさせる粉を自分にふりかけて注意をひく。相手の攻撃をすべて自分にむける。')
+
+Skilldb.create(id:          36,
+  skillname:            'いかりのまえば',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手のHPを半分にする')
+
+Skilldb.create(id:          37,
+  skillname:            'いたみわけ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手のHPと自分のHPを足して、それを半分にしてお互いに分ける')
+
+Skilldb.create(id:          38,
+  skillname:            'いちゃもん',
+  skilltype:           'あく',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手が同じわざを連続で出せない状態にする')
+
+Skilldb.create(id:          39,
+  skillname:            'いとをはく',
+  skilltype:           'むし',
+  skillpower:           '',
+  skillhit:           95,
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '相手全員',
+  skilleffect:           '相手の「すばやさ」を1段階下げる')
+
+Skilldb.create(id:          40,
+  skillname:            'いにしえのうた',
+  skilltype:           'ノーマル',
+  skillpower:           75,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           'いにしえのうたを相手に聞かせて心にうったえて攻撃する。眠り状態にすることがある。')
+
+Skilldb.create(id:          41,
+  skillname:            'いのちがけ',
+  skilltype:           'かくとう',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '命懸けで相手を攻撃する。自分はひんしになるが相手にHP分のダメージを与える。')
+
+Skilldb.create(id:          42,
+  skillname:            'いばる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           90,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「こんらん」状態にするが、代わりに「こうげき」を2段階上げる')
+
+Skilldb.create(id:          43,
+  skillname:            'いびき',
+  skilltype:           'ノーマル',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '自分が「ねむり」状態の時に使える。30％の確率で相手をひるませる')
+
+Skilldb.create(id:          44,
+  skillname:            'いやしのすず',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '味方全員',
+  skilleffect:           '味方すべてのポケモンの状態異常を治す')
+
+Skilldb.create(id:          45,
+  skillname:            'いやしのねがい',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分は「ひんし」状態になるが、つぎに出てくるポケモンのHPと状態異常を全回復する')
+
+Skilldb.create(id:          46,
+  skillname:            'いやしのはどう',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           'いやしのはどうをとばして最大HPの半分相手のHPを回復する。')
+
+Skilldb.create(id:          47,
+  skillname:            'いやなおと',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           85,
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の「ぼうぎょ」を2段階下げる')
+
+Skilldb.create(id:          48,
+  skillname:            'いわおとし',
+  skilltype:           'いわ',
+  skillpower:           50,
+  skillhit:           90,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          49,
+  skillname:            'いわくだき',
+  skilltype:           'かくとう',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '50％の確率で相手の「ぼうぎょ」を1段階下げる/ひびの入った岩を壊す')
+
+Skilldb.create(id:          50,
+  skillname:            'いわなだれ',
+  skilltype:           'いわ',
+  skillpower:           75,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '相手全員',
+  skilleffect:           '30％の確率で相手をひるませる（そのターンの相手の攻撃をふうじる）')
+
+Skilldb.create(id:          51,
+  skillname:            'インファイト',
+  skilltype:           'かくとう',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '自分の「ぼうぎょ」と「とくぼう」が1段階下がる')
+
+Skilldb.create(id:          52,
+  skillname:            'ウェザーボール',
+  skilltype:           'ノーマル',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '天気によってタイプが変わり、威力が2倍になる')
+
+Skilldb.create(id:          53,
+  skillname:            'うずしお',
+  skilltype:           'みず',
+  skillpower:           35,
+  skillhit:           85,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '2～5ターンの間ダメージを与えつづける。その間相手は逃げられない')
+
+Skilldb.create(id:          54,
+  skillname:            'うそなき',
+  skilltype:           'あく',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の「とくぼう」を2段階下げる')
+
+Skilldb.create(id:          55,
+  skillname:            'うたう',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           55,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「ねむり」状態にする')
+
+Skilldb.create(id:          56,
+  skillname:            'うちおとす',
+  skilltype:           'いわ',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '石や弾を投げて飛んでいる相手を攻撃する。相手はうち落とされて地面に落ちる。')
+
+Skilldb.create(id:          57,
+  skillname:            'ウッドハンマー',
+  skilltype:           'くさ',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に与えたダメージの3分の1を自分が受ける')
+
+Skilldb.create(id:          58,
+  skillname:            'ウッドホーン',
+  skilltype:           'くさ',
+  skillpower:           75,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'つのを突き刺して相手の養分を吸い取る。与えたダメージの半分のHPを回復できる。')
+
+Skilldb.create(id:          59,
+  skillname:            'うらみ',
+  skilltype:           'ゴースト',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手が最後に出したわざのPPを2～5へらす')
+
+Skilldb.create(id:          60,
+  skillname:            'エアカッター',
+  skilltype:           'ひこう',
+  skillpower:           55,
+  skillhit:           95,
+  skillpp:           25,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '急所にあたりやすい')
+
+Skilldb.create(id:          61,
+  skillname:            'エアスラッシュ',
+  skilltype:           'ひこう',
+  skillpower:           75,
+  skillhit:           95,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手をひるませる（そのターンの相手のわざをふうじる）')
+
+Skilldb.create(id:          62,
+  skillname:            'エアロブラスト',
+  skilltype:           'ひこう',
+  skillpower:           100,
+  skillhit:           95,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '急所にあたりやすい')
+
+Skilldb.create(id:          63,
+  skillname:            'エコーボイス',
+  skilltype:           'ノーマル',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '響く声で相手を攻撃する。毎ターンだれかが技を使い続けると威力があがる。')
+
+Skilldb.create(id:          64,
+  skillname:            'エナジーボール',
+  skilltype:           'くさ',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手の「とくぼう」を1段階下げる')
+
+Skilldb.create(id:          65,
+  skillname:            'エレキネット',
+  skilltype:           'でんき',
+  skillpower:           55,
+  skillhit:           95,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '電気のネットで相手を捕まえて攻撃する。相手の素早さをさげる。')
+
+Skilldb.create(id:          66,
+  skillname:            'エレキボール',
+  skilltype:           'でんき',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '電気の塊を相手にぶつける。相手より素早さが速いほど威力があがる。')
+
+Skilldb.create(id:          67,
+  skillname:            'えんまく',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の命中率を1段階下げる')
+
+Skilldb.create(id:          68,
+  skillname:            'オーバーヒート',
+  skilltype:           'ほのお',
+  skillpower:           140,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '自分の「とくこう」が2段階下がる。相手が「こおり」状態ならとける')
+
+Skilldb.create(id:          69,
+  skillname:            'オーロラビーム',
+  skilltype:           'こおり',
+  skillpower:           65,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手の「こうげき」を1段階下げる')
+
+Skilldb.create(id:          70,
+  skillname:            'おいうち',
+  skilltype:           'あく',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手がポケモンを交代しようとすると、ひっこむポケモンに2倍のダメージを与える')
+
+Skilldb.create(id:          71,
+  skillname:            'おいかぜ',
+  skilltype:           'ひこう',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '味方の場',
+  skilleffect:           '3ターンの間、自分と味方の「すばやさ」を2倍にする')
+
+Skilldb.create(id:          72,
+  skillname:            'おうふくビンタ',
+  skilltype:           'ノーマル',
+  skillpower:           15,
+  skillhit:           85,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2～5回連続で攻撃する')
+
+Skilldb.create(id:          73,
+  skillname:            'オウムがえし',
+  skilltype:           'ひこう',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手が自分に使ったわざと同じわざを出す')
+
+Skilldb.create(id:          74,
+  skillname:            'おきみやげ',
+  skilltype:           'あく',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '自分は「ひんし」状態になるが、相手の「こうげき」と「とくこう」を2段階下げる')
+
+Skilldb.create(id:          75,
+  skillname:            'オクタンほう',
+  skilltype:           'みず',
+  skillpower:           65,
+  skillhit:           85,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '50％の確率で相手の命中率を1段階下げる')
+
+Skilldb.create(id:          76,
+  skillname:            'おさきにどうぞ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の行動をサポートして自分の行動のあとに続けて動けるようにする。')
+
+Skilldb.create(id:          77,
+  skillname:            'おしおき',
+  skilltype:           'あく',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手の「のうりょく」が上がっているほど威力が高くなる')
+
+Skilldb.create(id:          78,
+  skillname:            'おしゃべり',
+  skilltype:           'ひこう',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '録音した音量に応じた確率で相手を「こんらん」状態にする（ペラップのみ）')
+
+Skilldb.create(id:          79,
+  skillname:            'おだてる',
+  skilltype:           'あく',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「こんらん」状態にするが、代わりに「とくこう」を1段階上げる')
+
+Skilldb.create(id:          80,
+  skillname:            'おどろかす',
+  skilltype:           'ゴースト',
+  skillpower:           30,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手をひるませる（そのターンの相手の攻撃をふうじる）')
+
+Skilldb.create(id:          81,
+  skillname:            'おにび',
+  skilltype:           'ほのお',
+  skillpower:           '',
+  skillhit:           75,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「やけど」状態にする')
+
+Skilldb.create(id:          82,
+  skillname:            'おまじない',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '味方の場',
+  skilleffect:           '5ターンの間相手の攻撃が急所に当たらなくなる')
+
+Skilldb.create(id:          83,
+  skillname:            'おんがえし',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'ポケモンのなつき具合で、威力が変わる。（なついているほど威力が高い）')
+
+Skilldb.create(id:          84,
+  skillname:            'おんねん',
+  skilltype:           'ゴースト',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '相手のわざで「ひんし」になった時、そのわざのPPを0にする')
+
+Skilldb.create(id:          85,
+  skillname:            'かいふくしれい',
+  skilltype:           'むし',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'HPを最大値の半分の値だけ回復する')
+
+Skilldb.create(id:          86,
+  skillname:            'かいふくふうじ',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '相手全員',
+  skilleffect:           '5ターンの間、相手がわざを使って回復できない状態にする')
+
+Skilldb.create(id:          87,
+  skillname:            'かいりき',
+  skilltype:           'ノーマル',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          88,
+  skillname:            'カウンター',
+  skilltype:           'かくとう',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '不定',
+  skilleffect:           '相手の物理攻撃のダメージを2倍にして返す。（必ず後攻になる）')
+
+Skilldb.create(id:          89,
+  skillname:            'かえんぐるま',
+  skilltype:           'ほのお',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           25,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「やけど」状態にする。自分と相手の「こおり」状態がとける')
+
+Skilldb.create(id:          90,
+  skillname:            'かえんだん',
+  skilltype:           'ほのお',
+  skillpower:           100,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '自分以外',
+  skilleffect:           '真っ赤な炎で自分の周りにいるものを攻撃する。やけど状態にすることがある。')
+
+Skilldb.create(id:          91,
+  skillname:            'かえんほうしゃ',
+  skilltype:           'ほのお',
+  skillpower:           95,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「やけど」状態に、相手が「こおり」状態の時はとける')
+
+Skilldb.create(id:          92,
+  skillname:            'かぎわける',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の回避率に関係なく攻撃が当たる。ゴーストタイプに、ノーマルとかくとうタイプのわざが当たるようになる')
+
+Skilldb.create(id:          93,
+  skillname:            'かくばる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「こうげき」を1段階上げる')
+
+Skilldb.create(id:          94,
+  skillname:            'かげうち',
+  skilltype:           'ゴースト',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '必ず先制攻撃ができる')
+
+Skilldb.create(id:          95,
+  skillname:            'かげぶんしん',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の回避率を1段階上げる')
+
+Skilldb.create(id:          96,
+  skillname:            'かぜおこし',
+  skilltype:           'ひこう',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           35,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手が「そらをとぶ」か「とびはねる」を使っていたら威力が2倍')
+
+Skilldb.create(id:          97,
+  skillname:            'かたきうち',
+  skilltype:           'ノーマル',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '倒れた味方のかたきを討つ。前のターンに味方が倒されていると威力があがる。')
+
+Skilldb.create(id:          98,
+  skillname:            'かたくなる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「ぼうぎょ」を1段階上げる')
+
+Skilldb.create(id:          99,
+  skillname:            'かなしばり',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手が直前に出したわざを、数ターンの間使えなくする')
+
+Skilldb.create(id:          100,
+  skillname:            'かまいたち',
+  skilltype:           'ノーマル',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '1ターン目はためて、2ターン目で攻撃する（急所にあたりやすい）')
+
+Skilldb.create(id:          101,
+  skillname:            'かみくだく',
+  skilltype:           'あく',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '20％の確率で相手の「とくぼう」を1段階下げる')
+
+Skilldb.create(id:          102,
+  skillname:            'かみつく',
+  skilltype:           'あく',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           25,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手をひるませる（そのターンの相手の攻撃をふうじる）')
+
+Skilldb.create(id:          103,
+  skillname:            'かみなり',
+  skilltype:           'でんき',
+  skillpower:           120,
+  skillhit:           70,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手を「まひ」状態にする。天気が「あめ」の時は必ず当たる。「ひざしがつよい」時は半分')
+
+Skilldb.create(id:          104,
+  skillname:            'かみなりのキバ',
+  skilltype:           'でんき',
+  skillpower:           65,
+  skillhit:           95,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「まひ」状態にするか、ひるませる')
+
+Skilldb.create(id:          105,
+  skillname:            'かみなりパンチ',
+  skilltype:           'でんき',
+  skillpower:           75,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「まひ」状態にする')
+
+Skilldb.create(id:          106,
+  skillname:            'からげんき',
+  skilltype:           'ノーマル',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '自分が「どく」「まひ」「やけど」の時は威力が2倍')
+
+Skilldb.create(id:          107,
+  skillname:            'からてチョップ',
+  skilltype:           'かくとう',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           25,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '急所にあたりやすい')
+
+Skilldb.create(id:          108,
+  skillname:            'からではさむ',
+  skilltype:           'みず',
+  skillpower:           35,
+  skillhit:           85,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '2～5ターン連続でダメージを与える。相手は逃げられない')
+
+Skilldb.create(id:          109,
+  skillname:            'からにこもる',
+  skilltype:           'みず',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「ぼうぎょ」を1段階上げる')
+
+Skilldb.create(id:          110,
+  skillname:            'からみつく',
+  skilltype:           'ノーマル',
+  skillpower:           10,
+  skillhit:           100,
+  skillpp:           35,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手の「すばやさ」を1段階下げる')
+
+Skilldb.create(id:          111,
+  skillname:            'からをやぶる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '殻をやぶって自分の防御特防をさげるが攻撃特攻素早さをぐーんとあげる。')
+
+Skilldb.create(id:          112,
+  skillname:            'かわらわり',
+  skilltype:           'かくとう',
+  skillpower:           75,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'わざ「リフレクター」の影響を受けない。「リフレクター」と「ひかりのかべ」を壊す')
+
+Skilldb.create(id:          113,
+  skillname:            'ガードシェア',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '超能力で自分と相手の防御と特防をたして半分にわける。')
+
+Skilldb.create(id:          114,
+  skillname:            'ガードスワップ',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手と自分の「ぼうぎょ」「とくぼう」の「のうりょく」変化を入れ替える')
+
+Skilldb.create(id:          115,
+  skillname:            'がまん',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '自分',
+  skilleffect:           'わざを使用した後の、2ターンに受けたダメージを2倍にして返す')
+
+Skilldb.create(id:          116,
+  skillname:            'がむしゃら',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手のHPから自分のHPをひいた分のダメージを与える（体力差がある程イイ）')
+
+Skilldb.create(id:          117,
+  skillname:            'がんせきふうじ',
+  skilltype:           'いわ',
+  skillpower:           50,
+  skillhit:           80,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '必ず相手の「すばやさ」を1段階下げる')
+
+Skilldb.create(id:          118,
+  skillname:            'がんせきほう',
+  skilltype:           'いわ',
+  skillpower:           150,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '使用したつぎのターンは行動ができない')
+
+Skilldb.create(id:          119,
+  skillname:            'きあいだま',
+  skilltype:           'かくとう',
+  skillpower:           120,
+  skillhit:           70,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手の「とくぼう」を1段階下げる')
+
+Skilldb.create(id:          120,
+  skillname:            'きあいだめ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '急所にあたりやすくなる')
+
+Skilldb.create(id:          121,
+  skillname:            'きあいパンチ',
+  skilltype:           'かくとう',
+  skillpower:           150,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '後攻になる上に、攻撃する前に相手の攻撃を受けたら、攻撃できない')
+
+Skilldb.create(id:          122,
+  skillname:            'きしかいせい',
+  skilltype:           'かくとう',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '残りHPが少ないほど、相手に大ダメージを与える')
+
+Skilldb.create(id:          123,
+  skillname:            'きつけ',
+  skilltype:           'ノーマル',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '「まひ」状態の相手に2倍のダメージを与えるが、「まひ」を治す')
+
+Skilldb.create(id:          124,
+  skillname:            'キノコのほうし',
+  skilltype:           'くさ',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「ねむり」状態にする')
+
+Skilldb.create(id:          125,
+  skillname:            'きゅうけつ',
+  skilltype:           'むし',
+  skillpower:           20,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に与えたダメージの半分、HPが回復する')
+
+Skilldb.create(id:          126,
+  skillname:            'きりさく',
+  skilltype:           'ノーマル',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '急所にあたりやすい')
+
+Skilldb.create(id:          127,
+  skillname:            'きりばらい',
+  skilltype:           'ひこう',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の回避率を1段階下げる')
+
+Skilldb.create(id:          128,
+  skillname:            'きりふだ',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           'PPが少ないほど威力が上がる')
+
+Skilldb.create(id:          129,
+  skillname:            'きんぞくおん',
+  skilltype:           'はがね',
+  skillpower:           '',
+  skillhit:           85,
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の「とくぼう」を2段階下げる')
+
+Skilldb.create(id:          130,
+  skillname:            'ギアソーサー',
+  skilltype:           'はがね',
+  skillpower:           50,
+  skillhit:           85,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '鋼鉄のギアを相手に投げつけて攻撃する。2回連続でダメージを与える。')
+
+Skilldb.create(id:          131,
+  skillname:            'ギアチェンジ',
+  skilltype:           'はがね',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '歯車を回して自分の攻撃をあげるだけでなく素早さもぐーんとあげる。')
+
+Skilldb.create(id:          132,
+  skillname:            'ギガインパクト',
+  skilltype:           'ノーマル',
+  skillpower:           150,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '使用したつぎのターンは行動ができない')
+
+Skilldb.create(id:          133,
+  skillname:            'ギガドレイン',
+  skilltype:           'くさ',
+  skillpower:           75,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手に与えたダメージの半分、HPが回復する')
+
+Skilldb.create(id:          134,
+  skillname:            'ギフトパス',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手が道具を持っていないとき自分が持っている道具を相手にわたす。')
+
+Skilldb.create(id:          135,
+  skillname:            'ぎんいろのかぜ',
+  skilltype:           'むし',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で、全てのステータスを1段階上げる')
+
+Skilldb.create(id:          136,
+  skillname:            'くさのちかい',
+  skilltype:           'くさ',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '草の柱で攻撃する。みずと組みあわせると威力があがってあたりが湿原になる。')
+
+Skilldb.create(id:          137,
+  skillname:            'くさぶえ',
+  skilltype:           'くさ',
+  skillpower:           '',
+  skillhit:           55,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「ねむり」状態にする')
+
+Skilldb.create(id:          138,
+  skillname:            'くさむすび',
+  skilltype:           'くさ',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手の「おもさ」が重いほど、威力が高くなる')
+
+Skilldb.create(id:          139,
+  skillname:            'くすぐる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の「こうげき」と「ぼうぎょ」を1段階下げる')
+
+Skilldb.create(id:          140,
+  skillname:            'クモのす',
+  skilltype:           'むし',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を逃げられなくする')
+
+Skilldb.create(id:          141,
+  skillname:            'クラブハンマー',
+  skilltype:           'みず',
+  skillpower:           90,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '急所にあたりやすい')
+
+Skilldb.create(id:          142,
+  skillname:            'クリアスモッグ',
+  skilltype:           'どく',
+  skillpower:           50,
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '特殊な泥の塊を相手に投げつけて攻撃する。能力変化をもとにもどす。')
+
+Skilldb.create(id:          143,
+  skillname:            'くろいきり',
+  skilltype:           'こおり',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '全体の場',
+  skilleffect:           '相手と自分の「のうりょく」の変化を元に戻す')
+
+Skilldb.create(id:          144,
+  skillname:            'くろいまなざし',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を逃げられなくする')
+
+Skilldb.create(id:          145,
+  skillname:            'クロスサンダー',
+  skilltype:           'でんき',
+  skillpower:           100,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '巨大な雷をたたきつける。巨大な炎の影響を受け技の威力があがる。')
+
+Skilldb.create(id:          146,
+  skillname:            'クロスチョップ',
+  skilltype:           'かくとう',
+  skillpower:           100,
+  skillhit:           80,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '急所にあたりやすい')
+
+Skilldb.create(id:          147,
+  skillname:            'クロスフレイム',
+  skilltype:           'ほのお',
+  skillpower:           100,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '巨大な炎をたたきつける。巨大な雷の影響を受け技の威力があがる。')
+
+Skilldb.create(id:          148,
+  skillname:            'クロスポイズン',
+  skilltype:           'どく',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '急所にあたりやすい。10％の確率で相手を「どく」状態にする')
+
+Skilldb.create(id:          149,
+  skillname:            'グラスミキサー',
+  skilltype:           'くさ',
+  skillpower:           65,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '鋭いはっぱで相手を包みこんで攻撃する。命中率をさげることがある。')
+
+Skilldb.create(id:          150,
+  skillname:            'けたぐり',
+  skilltype:           'かくとう',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手の「おもさ」が重いほど、威力が上がる')
+
+Skilldb.create(id:          151,
+  skillname:            'げきりん',
+  skilltype:           'ドラゴン',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '相手ランダム',
+  skilleffect:           '2～3ターン連続で攻撃する。終わると自分が「こんらん」状態になる')
+
+Skilldb.create(id:          152,
+  skillname:            'げんしのちから',
+  skilltype:           'いわ',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で全てのステータスを1段階上げる')
+
+Skilldb.create(id:          153,
+  skillname:            'コールドフレア',
+  skilltype:           'こおり',
+  skillpower:           140,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           'すべてを凍らせる激しい冷気で2ターン目に相手を包みこむ。やけど状態にすることがある。')
+
+Skilldb.create(id:          154,
+  skillname:            'こうげきしれい',
+  skilltype:           'むし',
+  skillpower:           90,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '急所にあたりやすい')
+
+Skilldb.create(id:          155,
+  skillname:            'こうごうせい',
+  skilltype:           'くさ',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'HPを回復する。「ひざしがつよい」で2/3、普通で1/2、他の天気で1/4を回復')
+
+Skilldb.create(id:          156,
+  skillname:            'こうそくいどう',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「すばやさ」を2段階上げる')
+
+Skilldb.create(id:          157,
+  skillname:            'こうそくスピン',
+  skilltype:           'ノーマル',
+  skillpower:           20,
+  skillhit:           100,
+  skillpp:           40,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '「しめつける」「まきつく」「やどりぎのタネ」「まきびし」などのわざから抜け出せる')
+
+Skilldb.create(id:          158,
+  skillname:            'こおりのいぶき',
+  skilltype:           'こおり',
+  skillpower:           40,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '冷たい息を相手に吹きつけて攻撃する。必ず急所に当たる。')
+
+Skilldb.create(id:          159,
+  skillname:            'こおりのキバ',
+  skilltype:           'こおり',
+  skillpower:           65,
+  skillhit:           95,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「こおり」状態にする')
+
+Skilldb.create(id:          160,
+  skillname:            'こおりのつぶて',
+  skilltype:           'こおり',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '必ず先制攻撃ができる（両方が同様の技を出したら「すばやさ」が高いほうが先になる）')
+
+Skilldb.create(id:          161,
+  skillname:            'こころのめ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '次のターンの攻撃を必ず命中させる')
+
+Skilldb.create(id:          162,
+  skillname:            'こごえるかぜ',
+  skilltype:           'こおり',
+  skillpower:           55,
+  skillhit:           95,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '必ず相手の「すばやさ」を1段階下げる')
+
+Skilldb.create(id:          163,
+  skillname:            'こごえるせかい',
+  skilltype:           'こおり',
+  skillpower:           65,
+  skillhit:           95,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '凍えるような冷気を相手に吹きつけて攻撃する。相手の素早さをさげる。')
+
+Skilldb.create(id:          164,
+  skillname:            'コスモパワー',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「ぼうぎょ」と「とくぼう」を1段階上げる')
+
+Skilldb.create(id:          165,
+  skillname:            'コットンガード',
+  skilltype:           'くさ',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'フワフワの綿毛で自分の体を包みこんで守る。防御をぐぐーんとあげる。')
+
+Skilldb.create(id:          166,
+  skillname:            'こなゆき',
+  skilltype:           'こおり',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           25,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '10％の確率で相手を「こおり」状態にする')
+
+Skilldb.create(id:          167,
+  skillname:            'このゆびとまれ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '先制になって、相手のわざを全て自分がうける')
+
+Skilldb.create(id:          168,
+  skillname:            'コメットパンチ',
+  skilltype:           'はがね',
+  skillpower:           100,
+  skillhit:           85,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '20％の確率で自分の「こうげき」を1段階上げる')
+
+Skilldb.create(id:          169,
+  skillname:            'こらえる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'そのターンに「ひんし」状態になる攻撃を受けても、HPが1残る')
+
+Skilldb.create(id:          170,
+  skillname:            'ころがる',
+  skilltype:           'いわ',
+  skillpower:           30,
+  skillhit:           90,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'はずれるまで5ターン連続で攻撃。あたる度にダメージが増える。「まるくなる」を使った後はダメージが2倍')
+
+Skilldb.create(id:          171,
+  skillname:            'こわいかお',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の「すばやさ」を2段階下げる')
+
+Skilldb.create(id:          172,
+  skillname:            'ゴッドバード',
+  skilltype:           'ひこう',
+  skillpower:           140,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターン目はためて、2ターン目に攻撃。30％の確率で相手をひるませる')
+
+Skilldb.create(id:          173,
+  skillname:            'サイケこうせん',
+  skilltype:           'エスパー',
+  skillpower:           65,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「こんらん」状態にする')
+
+Skilldb.create(id:          174,
+  skillname:            'サイコウェーブ',
+  skilltype:           'エスパー',
+  skillpower:           1,
+  skillhit:           80,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '自分のレベル×0.5～1.5のダメージを与える')
+
+Skilldb.create(id:          175,
+  skillname:            'サイコカッター',
+  skilltype:           'エスパー',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '急所にあたりやすい')
+
+Skilldb.create(id:          176,
+  skillname:            'サイコキネシス',
+  skilltype:           'エスパー',
+  skillpower:           90,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手の「とくぼう」を1段階下げる')
+
+Skilldb.create(id:          177,
+  skillname:            'サイコシフト',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '自分の状態異常（「どく」「もうどく」「ねむり」「まひ」「やけど」）を相手に移し、自分は治る')
+
+Skilldb.create(id:          178,
+  skillname:            'サイコショック',
+  skilltype:           'エスパー',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '不思議な念波を実体化して相手を攻撃する。物理的なダメージを与える。')
+
+Skilldb.create(id:          179,
+  skillname:            'サイコブースト',
+  skilltype:           'エスパー',
+  skillpower:           140,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '自分の「とくこう」が2段階下がる')
+
+Skilldb.create(id:          180,
+  skillname:            'サイコブレイク',
+  skilltype:           'エスパー',
+  skillpower:           100,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '不思議な念波を実体化して相手を攻撃する。物理的なダメージを与える。')
+
+Skilldb.create(id:          181,
+  skillname:            'サイドチェンジ',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '不思議な力でテレポートして自分と味方の居場所を入れ替える。')
+
+Skilldb.create(id:          182,
+  skillname:            'さいみんじゅつ',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           60,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「ねむり」状態にする')
+
+Skilldb.create(id:          183,
+  skillname:            'さきおくり',
+  skilltype:           'あく',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手をおさえつけて行動の順番を最後にする。')
+
+Skilldb.create(id:          184,
+  skillname:            'さきどり',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '全体',
+  skilleffect:           '相手が出そうとしている攻撃わざの威力をアップして出す。先に攻撃できないと失敗する')
+
+Skilldb.create(id:          185,
+  skillname:            'さしおさえ',
+  skilltype:           'あく',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '5ターンの間、相手はどうぐを使えなくなる。トレーナーがそのポケモンに使うこともできなくなる')
+
+Skilldb.create(id:          186,
+  skillname:            'さばきのつぶて',
+  skilltype:           'ノーマル',
+  skillpower:           100,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '自分もつプレートによりタイプが変わる')
+
+Skilldb.create(id:          187,
+  skillname:            'さわぐ',
+  skilltype:           'ノーマル',
+  skillpower:           90,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '相手ランダム',
+  skilleffect:           '2～5ターンさわぎ続ける。その間はお互いに「ねむり」状態にならない')
+
+Skilldb.create(id:          188,
+  skillname:            'シードフレア',
+  skilltype:           'くさ',
+  skillpower:           120,
+  skillhit:           85,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手の「とくぼう」を下げる')
+
+Skilldb.create(id:          189,
+  skillname:            'シェルブレード',
+  skilltype:           'みず',
+  skillpower:           75,
+  skillhit:           95,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '鋭い貝殻で切りつけて攻撃する。相手の防御をさげることがある。')
+
+Skilldb.create(id:          190,
+  skillname:            'しおふき',
+  skilltype:           'みず',
+  skillpower:           150,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '自分のHPが減ると、威力が下がる')
+
+Skilldb.create(id:          191,
+  skillname:            'しおみず',
+  skilltype:           'みず',
+  skillpower:           65,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手のHPが最大HPの半分以下だと、威力が2倍になる')
+
+Skilldb.create(id:          192,
+  skillname:            'シグナルビーム',
+  skilltype:           'むし',
+  skillpower:           75,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「こんらん」状態にする')
+
+Skilldb.create(id:          193,
+  skillname:            'シザークロス',
+  skilltype:           'むし',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          194,
+  skillname:            'しぜんのちから',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '不定',
+  skilleffect:           'その時いる地形にあわせたタイプのわざになる')
+
+Skilldb.create(id:          195,
+  skillname:            'しぜんのめぐみ',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '持っているきのみによって、タイプと威力が変わる。わざを1回使うと、きのみはなくなる')
+
+Skilldb.create(id:          196,
+  skillname:            'したでなめる',
+  skilltype:           'ゴースト',
+  skillpower:           20,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手を「まひ」させる')
+
+Skilldb.create(id:          197,
+  skillname:            'しっぺがえし',
+  skilltype:           'あく',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手より後にわざを出したとき、威力が2倍になる')
+
+Skilldb.create(id:          198,
+  skillname:            'しっぽをふる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '相手全員',
+  skilleffect:           '相手の「ぼうぎょ」を1段階下げる')
+
+Skilldb.create(id:          199,
+  skillname:            'しねんのずつき',
+  skilltype:           'エスパー',
+  skillpower:           80,
+  skillhit:           90,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '20％の確率で相手をひるませる（そのターンの相手のわざをふうじる）')
+
+Skilldb.create(id:          200,
+  skillname:            'しびれごな',
+  skilltype:           'くさ',
+  skillpower:           '',
+  skillhit:           75,
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「まひ」させる')
+
+Skilldb.create(id:          201,
+  skillname:            'しぼりとる',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手のHPが多く残っているほど、威力が高くなる（最大で120）')
+
+Skilldb.create(id:          202,
+  skillname:            'しめつける',
+  skilltype:           'ノーマル',
+  skillpower:           15,
+  skillhit:           85,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '2～5ターンの間ダメージ。その間は逃げられない')
+
+Skilldb.create(id:          203,
+  skillname:            'シャドークロー',
+  skilltype:           'ゴースト',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '急所にあたりやすい')
+
+Skilldb.create(id:          204,
+  skillname:            'シャドーダイブ',
+  skilltype:           'ゴースト',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターン目に姿を消し、2ターン目に攻撃する')
+
+Skilldb.create(id:          205,
+  skillname:            'シャドーパンチ',
+  skilltype:           'ゴースト',
+  skillpower:           60,
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に必ず攻撃が当たる')
+
+Skilldb.create(id:          206,
+  skillname:            'シャドーボール',
+  skilltype:           'ゴースト',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '20％の確率で相手の「とくぼう」を1段階下げる')
+
+Skilldb.create(id:          207,
+  skillname:            'しろいきり',
+  skilltype:           'こおり',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '味方の場',
+  skilleffect:           '5ターンの間「のうりょく」を下げる効果のわざや追加効果を受けなくなる')
+
+Skilldb.create(id:          208,
+  skillname:            'しんくうは',
+  skilltype:           'かくとう',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '必ず先制攻撃ができる')
+
+Skilldb.create(id:          209,
+  skillname:            'シンクロノイズ',
+  skilltype:           'エスパー',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '自分以外',
+  skilleffect:           '不思議な電波で周りにいる自分と同じタイプのポケモンにダメージを与える。')
+
+Skilldb.create(id:          210,
+  skillname:            'しんそく',
+  skilltype:           'ノーマル',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '必ず先制攻撃ができる')
+
+Skilldb.create(id:          211,
+  skillname:            'しんぴのまもり',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           25,
+  skillkind:           '変化',
+  skillscope:           '味方の場',
+  skilleffect:           '5ターンの間は交代しても状態異常にならない')
+
+Skilldb.create(id:          212,
+  skillname:            'シンプルビーム',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           'なぞの念波を相手に送る。念波を受けとった相手は特性がたんじゅんになる。')
+
+Skilldb.create(id:          213,
+  skillname:            'しんぴのつるぎ',
+  skilltype:           'かくとう',
+  skillpower:           85,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '長いつので切りつけて攻撃する。つのがまとった不思議な力は物理的なダメージを与える。')
+
+Skilldb.create(id:          214,
+  skillname:            'じこあんじ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手にかかっている補助効果を自分にもかける')
+
+Skilldb.create(id:          215,
+  skillname:            'じこさいせい',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '最大HPの半分だけHPを回復')
+
+Skilldb.create(id:          216,
+  skillname:            'じごくぐるま',
+  skilltype:           'かくとう',
+  skillpower:           80,
+  skillhit:           80,
+  skillpp:           25,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に与えたダメージの1/4を自分も受ける')
+
+Skilldb.create(id:          217,
+  skillname:            'じしん',
+  skilltype:           'じめん',
+  skillpower:           100,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '自分以外',
+  skilleffect:           '2対バトルでは自分以外全員にダメージ')
+
+Skilldb.create(id:          218,
+  skillname:            'じたばた',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '残りHPが少ないほど、大ダメージを与える')
+
+Skilldb.create(id:          219,
+  skillname:            'じならし',
+  skilltype:           'じめん',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '自分以外',
+  skilleffect:           '地面を踏みならして自分の周りにいるものを攻撃する。相手の素早さをさげる。')
+
+Skilldb.create(id:          220,
+  skillname:            'じばく',
+  skilltype:           'ノーマル',
+  skillpower:           200,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '自分以外',
+  skilleffect:           '威力大だが、自分が「ひんし」になる')
+
+Skilldb.create(id:          221,
+  skillname:            'ジャイロボール',
+  skilltype:           'はがね',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '自分の「すばやさ」が相手より遅いほど威力が高くなる（最大で150）')
+
+Skilldb.create(id:          222,
+  skillname:            'じゅうでん',
+  skilltype:           'でんき',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '次のターンに出す、でんきタイプのわざの威力が2倍になる')
+
+Skilldb.create(id:          223,
+  skillname:            '１０まんボルト',
+  skilltype:           'でんき',
+  skillpower:           95,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「まひ」状態にする')
+
+Skilldb.create(id:          224,
+  skillname:            'じゅうりょく',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '全体の場',
+  skilleffect:           '5ターンの間、戦闘している全てのポケモンの命中率が上がる')
+
+Skilldb.create(id:          225,
+  skillname:            'じわれ',
+  skilltype:           'じめん',
+  skillpower:           1,
+  skillhit:           30,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手を1撃で「ひんし」にする。（相手のレベルが高いと当たらない。低い方がいい）')
+
+Skilldb.create(id:          226,
+  skillname:            'じんつうりき',
+  skilltype:           'エスパー',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手をひるませる')
+
+Skilldb.create(id:          227,
+  skillname:            'スイープビンタ',
+  skilltype:           'ノーマル',
+  skillpower:           25,
+  skillhit:           85,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '硬いしっぽで相手をたたいて攻撃する。2ー5回のあいだ連続でだす。')
+
+Skilldb.create(id:          228,
+  skillname:            'すいとる',
+  skilltype:           'くさ',
+  skillpower:           20,
+  skillhit:           100,
+  skillpp:           25,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手に与えたダメージの半分HPが回復')
+
+Skilldb.create(id:          229,
+  skillname:            'スカイアッパー',
+  skilltype:           'かくとう',
+  skillpower:           85,
+  skillhit:           90,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'わざ「そらをとぶ」「とびはねる」を使っている敵にもダメージを与えられる')
+
+Skilldb.create(id:          230,
+  skillname:            'スキルスワップ',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '自分と相手の「とくせい」をいれかえる。（ふしぎなまもりを除く）')
+
+Skilldb.create(id:          231,
+  skillname:            'スケッチ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           1,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手が最後に使ったわざをコピーする')
+
+Skilldb.create(id:          232,
+  skillname:            'すてみタックル',
+  skilltype:           'ノーマル',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に与えたダメージの1/3を自分も受ける')
+
+Skilldb.create(id:          233,
+  skillname:            'ステルスロック',
+  skilltype:           'いわ',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '相手の場',
+  skilleffect:           '相手がポケモンをくり出すたびにダメージを与える。このダメージはタイプの相性の影響を受ける')
+
+Skilldb.create(id:          234,
+  skillname:            'ストーンエッジ',
+  skilltype:           'いわ',
+  skillpower:           100,
+  skillhit:           80,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '急所に当たりやすい')
+
+Skilldb.create(id:          235,
+  skillname:            'すなあらし',
+  skilltype:           'いわ',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '全体の場',
+  skilleffect:           '5ターンの間「すなあらし」状態。いわ・はがね・じめんタイプ以外はダメージを受ける')
+
+Skilldb.create(id:          236,
+  skillname:            'すなかけ',
+  skilltype:           'じめん',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の命中率を1段階下げる')
+
+Skilldb.create(id:          237,
+  skillname:            'すなじごく',
+  skilltype:           'じめん',
+  skillpower:           35,
+  skillhit:           85,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '2～5ターンの間ダメージを与える。相手は逃げられない')
+
+Skilldb.create(id:          238,
+  skillname:            'スパーク',
+  skilltype:           'でんき',
+  skillpower:           65,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手を「まひ」状態にする')
+
+Skilldb.create(id:          239,
+  skillname:            'スピードスター',
+  skilltype:           'ノーマル',
+  skillpower:           60,
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '相手に必ず攻撃が当たる')
+
+Skilldb.create(id:          240,
+  skillname:            'スプーンまげ',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           80,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の命中率を1段階下げる')
+
+Skilldb.create(id:          241,
+  skillname:            'スモッグ',
+  skilltype:           'どく',
+  skillpower:           20,
+  skillhit:           70,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '40％の確率で相手を「どく」状態にする')
+
+Skilldb.create(id:          242,
+  skillname:            'すりかえ',
+  skilltype:           'あく',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '自分のどうぐと相手のどうぐを交換する')
+
+Skilldb.create(id:          243,
+  skillname:            'ずつき',
+  skilltype:           'ノーマル',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手をひるませる')
+
+Skilldb.create(id:          244,
+  skillname:            'せいちょう',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「とくこう」を1段階上げる')
+
+Skilldb.create(id:          245,
+  skillname:            'せいなるつるぎ',
+  skilltype:           'かくとう',
+  skillpower:           90,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '長いつので切りつけて攻撃する。相手の能力変化に関係なくダメージを与える。')
+
+Skilldb.create(id:          246,
+  skillname:            'せいなるほのお',
+  skilltype:           'ほのお',
+  skillpower:           100,
+  skillhit:           95,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '50％の確率で相手を「やけど」状態にする')
+
+Skilldb.create(id:          247,
+  skillname:            'ぜったいれいど',
+  skilltype:           'こおり',
+  skillpower:           1,
+  skillhit:           30,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手を1撃で「ひんし」にする')
+
+Skilldb.create(id:          248,
+  skillname:            'ソーラービーム',
+  skilltype:           'くさ',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '1ターン目はためて、2ターン目で攻撃。（「ひざしがつよい」時はためないで攻撃できる。他の天気では威力半減）')
+
+Skilldb.create(id:          249,
+  skillname:            'ソニックブーム',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           90,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '固定ダメージ20を与える')
+
+Skilldb.create(id:          250,
+  skillname:            'そらをとぶ',
+  skilltype:           'ひこう',
+  skillpower:           90,
+  skillhit:           95,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターン目でとびあがり、2ターン目で攻撃')
+
+Skilldb.create(id:          251,
+  skillname:            'たいあたり',
+  skilltype:           'ノーマル',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           35,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          252,
+  skillname:            'たきのぼり',
+  skilltype:           'みず',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '20％の確率で相手をひるませる')
+
+Skilldb.create(id:          253,
+  skillname:            'たくわえる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '3回まで連続使用可能。わざ「のみこむ」「はきだす」の効果を上げる')
+
+Skilldb.create(id:          254,
+  skillname:            'たたきつける',
+  skilltype:           'ノーマル',
+  skillpower:           80,
+  skillhit:           75,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          255,
+  skillname:            'たたりめ',
+  skilltype:           'ゴースト',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           'たたみかけるように攻撃する。状態異常の相手に大きなダメージを与える。')
+
+Skilldb.create(id:          256,
+  skillname:            'たつまき',
+  skilltype:           'ドラゴン',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '20％の確率で相手をひるませる')
+
+Skilldb.create(id:          257,
+  skillname:            'タネばくだん',
+  skilltype:           'くさ',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          258,
+  skillname:            'タネマシンガン',
+  skilltype:           'くさ',
+  skillpower:           25,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2～5回連続で攻撃する')
+
+Skilldb.create(id:          259,
+  skillname:            'タマゴうみ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '最大HPの半分、HPを回復する')
+
+Skilldb.create(id:          260,
+  skillname:            'タマゴばくだん',
+  skilltype:           'ノーマル',
+  skillpower:           100,
+  skillhit:           75,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          261,
+  skillname:            'たまなげ',
+  skilltype:           'ノーマル',
+  skillpower:           15,
+  skillhit:           85,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2～5回連続で攻撃する')
+
+Skilldb.create(id:          262,
+  skillname:            'ダークホール',
+  skilltype:           'あく',
+  skillpower:           '',
+  skillhit:           80,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '相手全員',
+  skilleffect:           '相手を「ねむり」状態にする')
+
+Skilldb.create(id:          263,
+  skillname:            'だいちのちから',
+  skilltype:           'じめん',
+  skillpower:           90,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手の「とくぼう」を1段階下げる')
+
+Skilldb.create(id:          264,
+  skillname:            'だいばくはつ',
+  skilltype:           'ノーマル',
+  skillpower:           250,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '自分以外',
+  skilleffect:           '威力大だが自分が「ひんし」になる')
+
+Skilldb.create(id:          265,
+  skillname:            'ダイビング',
+  skilltype:           'みず',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '１ターン目に水中にもぐり、2ターン目に攻撃')
+
+Skilldb.create(id:          266,
+  skillname:            'だいもんじ',
+  skilltype:           'ほのお',
+  skillpower:           120,
+  skillhit:           85,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「やけど」にする。「こおり」状態ならとける')
+
+Skilldb.create(id:          267,
+  skillname:            'だくりゅう',
+  skilltype:           'みず',
+  skillpower:           95,
+  skillhit:           85,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '30％の確率で相手の命中率を1段階下げる')
+
+Skilldb.create(id:          268,
+  skillname:            'ダストシュート',
+  skilltype:           'どく',
+  skillpower:           120,
+  skillhit:           70,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手を「どく」状態にする')
+
+Skilldb.create(id:          269,
+  skillname:            'ダブルアタック',
+  skilltype:           'ノーマル',
+  skillpower:           35,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2回連続で攻撃する')
+
+Skilldb.create(id:          270,
+  skillname:            'ダブルチョップ',
+  skilltype:           'ドラゴン',
+  skillpower:           40,
+  skillhit:           90,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '体の硬い部分で相手をたたいて攻撃する。2回連続でダメージを与える。')
+
+Skilldb.create(id:          271,
+  skillname:            'ダブルニードル',
+  skilltype:           'むし',
+  skillpower:           25,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2回連続で攻撃する（20％の確率で「どく」状態にする）')
+
+Skilldb.create(id:          272,
+  skillname:            'だましうち',
+  skilltype:           'あく',
+  skillpower:           60,
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に必ず攻撃が当たる')
+
+Skilldb.create(id:          273,
+  skillname:            'ダメおし',
+  skilltype:           'あく',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手がそのターンにすでにダメージを受けていた場合、威力が2倍になる')
+
+Skilldb.create(id:          274,
+  skillname:            'ちいさくなる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の回避率を1段階上げる')
+
+Skilldb.create(id:          275,
+  skillname:            'ちきゅうなげ',
+  skilltype:           'かくとう',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '自分のレベルと同じダメージを与える')
+
+Skilldb.create(id:          276,
+  skillname:            'チャージビーム',
+  skilltype:           'でんき',
+  skillpower:           50,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '70％の確率で自分の「とくこう」を1段階上げる')
+
+Skilldb.create(id:          277,
+  skillname:            'ちょうおんぱ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           55,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「こんらん」状態にする')
+
+Skilldb.create(id:          278,
+  skillname:            'ちょうのまい',
+  skilltype:           'むし',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '神秘的で美しい舞を軽やかにおどる。自分の特攻と特防と素早さをあげる。')
+
+Skilldb.create(id:          279,
+  skillname:            'ちょうはつ',
+  skilltype:           'あく',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '次のターンまで、相手は攻撃わざしか出せなくなる')
+
+Skilldb.create(id:          280,
+  skillname:            'ついばむ',
+  skilltype:           'ひこう',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手がバトルに効果のあるきのみを持っていた場合、きのみの効果を自分に発揮させる')
+
+Skilldb.create(id:          281,
+  skillname:            'つきのひかり',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'HPを回復する。（「ひざしがつよい」で2/3、通常で1/2、他の天気で1/4を回復）')
+
+Skilldb.create(id:          282,
+  skillname:            'つじぎり',
+  skilltype:           'あく',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '急所に当たりやすい')
+
+Skilldb.create(id:          283,
+  skillname:            'つっぱり',
+  skilltype:           'かくとう',
+  skillpower:           15,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2～5回連続攻撃')
+
+Skilldb.create(id:          284,
+  skillname:            'つつく',
+  skilltype:           'ひこう',
+  skillpower:           35,
+  skillhit:           100,
+  skillpp:           35,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          285,
+  skillname:            'つのでつく',
+  skilltype:           'ノーマル',
+  skillpower:           65,
+  skillhit:           100,
+  skillpp:           25,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          286,
+  skillname:            'つのドリル',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           30,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手を1撃で「ひんし」状態にする（相手のレベルが低いほどよく当たり、自分より高いと当たらない）')
+
+Skilldb.create(id:          287,
+  skillname:            'つばさでうつ',
+  skilltype:           'ひこう',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           35,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          288,
+  skillname:            'つばめがえし',
+  skilltype:           'ひこう',
+  skillpower:           60,
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に必ず攻撃が当たる')
+
+Skilldb.create(id:          289,
+  skillname:            'つぼをつく',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '味方ランダム',
+  skilleffect:           'ランダムで「のうりょく」のどれかを2段階上げる')
+
+Skilldb.create(id:          290,
+  skillname:            'つめとぎ',
+  skilltype:           'あく',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'ツメを磨いて鋭くする。自分の攻撃と命中率をあげる。')
+
+Skilldb.create(id:          291,
+  skillname:            'つららおとし',
+  skilltype:           'こおり',
+  skillpower:           85,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '大きな氷柱を激しくぶつけて攻撃する。相手をひるませることがある。')
+
+Skilldb.create(id:          292,
+  skillname:            'つららばり',
+  skilltype:           'こおり',
+  skillpower:           25,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2～5回連続攻撃')
+
+Skilldb.create(id:          293,
+  skillname:            'つるぎのまい',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「こうげき」を2段階上げる')
+
+Skilldb.create(id:          294,
+  skillname:            'つるのムチ',
+  skilltype:           'くさ',
+  skillpower:           35,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          295,
+  skillname:            'テクスチャー',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分のタイプを、持っているわざのタイプに変える')
+
+Skilldb.create(id:          296,
+  skillname:            'テクスチャー２',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '自分のタイプを相手が使ってきたわざが、あまり効かないタイプに変える')
+
+Skilldb.create(id:          297,
+  skillname:            'テクノバスター',
+  skilltype:           'ノーマル',
+  skillpower:           85,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '光弾を相手に放出する。自分の持つカセットによりタイプが変わる。')
+
+Skilldb.create(id:          298,
+  skillname:            'てだすけ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '味方選択',
+  skilleffect:           '味方のわざの威力を1.5倍にする')
+
+Skilldb.create(id:          299,
+  skillname:            'てっぺき',
+  skilltype:           'はがね',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「ぼうぎょ」を2段階上げる')
+
+Skilldb.create(id:          300,
+  skillname:            'テレキネシス',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '超能力で相手を浮かせる。3ターンのあいだ攻撃が相手に当たりやすくなる。')
+
+Skilldb.create(id:          301,
+  skillname:            'テレポート',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '野生のポケモンから逃げる/最後に利用したポケモンセンターにワープする')
+
+Skilldb.create(id:          302,
+  skillname:            'てんしのキッス',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           75,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「こんらん」状態にする')
+
+Skilldb.create(id:          303,
+  skillname:            'でんきショック',
+  skilltype:           'でんき',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「まひ」にする')
+
+Skilldb.create(id:          304,
+  skillname:            'でんげきは',
+  skilltype:           'でんき',
+  skillpower:           60,
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手に必ず攻撃が当たる')
+
+Skilldb.create(id:          305,
+  skillname:            'でんこうせっか',
+  skilltype:           'ノーマル',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '必ず先制攻撃ができる。')
+
+Skilldb.create(id:          306,
+  skillname:            'でんじは',
+  skilltype:           'でんき',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「まひ」状態にする')
+
+Skilldb.create(id:          307,
+  skillname:            'でんじふゆう',
+  skilltype:           'でんき',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '5ターンの間自分が「ふゆう」状態になる')
+
+Skilldb.create(id:          308,
+  skillname:            'でんじほう',
+  skilltype:           'でんき',
+  skillpower:           120,
+  skillhit:           50,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '必ず相手を「まひ」状態にする')
+
+Skilldb.create(id:          309,
+  skillname:            'とおせんぼう',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を逃げられなくする')
+
+Skilldb.create(id:          310,
+  skillname:            'とおぼえ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「こうげき」を1段階上げる')
+
+Skilldb.create(id:          311,
+  skillname:            'ときのほうこう',
+  skilltype:           'ドラゴン',
+  skillpower:           150,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '使用したつぎのターンは行動ができない')
+
+Skilldb.create(id:          312,
+  skillname:            'とぐろをまく',
+  skilltype:           'どく',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'とぐろをまいて集中する。自分の攻撃と防御と命中率をあげる。')
+
+Skilldb.create(id:          313,
+  skillname:            'とける',
+  skilltype:           'どく',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「ぼうぎょ」を2段階上げる')
+
+Skilldb.create(id:          314,
+  skillname:            'とげキャノン',
+  skilltype:           'ノーマル',
+  skillpower:           20,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2～5回連続攻撃')
+
+Skilldb.create(id:          315,
+  skillname:            'とっしん',
+  skilltype:           'ノーマル',
+  skillpower:           90,
+  skillhit:           85,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に与えたダメージの1/4を自分も受ける')
+
+Skilldb.create(id:          316,
+  skillname:            'とっておき',
+  skilltype:           'ノーマル',
+  skillpower:           140,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'ほかにおぼえているわざをそれぞれ1回以上使っていないと失敗する')
+
+Skilldb.create(id:          317,
+  skillname:            'とびげり',
+  skilltype:           'かくとう',
+  skillpower:           100,
+  skillhit:           95,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '攻撃がはずれると、与えるはずだったダメージの1/2を自分が受ける')
+
+Skilldb.create(id:          318,
+  skillname:            'とびはねる',
+  skilltype:           'ひこう',
+  skillpower:           85,
+  skillhit:           85,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターン目にとびあがり、2ターン目に攻撃。30％の確率で相手を「まひ」状態にする')
+
+Skilldb.create(id:          319,
+  skillname:            'とびひざげり',
+  skilltype:           'かくとう',
+  skillpower:           130,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '攻撃がはずれると、与えるはずだったダメージの1/2を自分が受ける')
+
+Skilldb.create(id:          320,
+  skillname:            'ともえなげ',
+  skilltype:           'かくとう',
+  skillpower:           60,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手を投げとばして控えのポケモンをひきずりだす。野生の場合は戦闘が終わる。')
+
+Skilldb.create(id:          321,
+  skillname:            'トライアタック',
+  skilltype:           'ノーマル',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '20％の確率で相手を、「まひ」「やけど」「こおり」のどれかにする')
+
+Skilldb.create(id:          322,
+  skillname:            'トリック',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手と自分が持っている道具を入れ替える')
+
+Skilldb.create(id:          323,
+  skillname:            'トリックルーム',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '全体の場',
+  skilleffect:           '5ターンの間、「すばやさ」の遅い順に攻撃が行われる')
+
+Skilldb.create(id:          324,
+  skillname:            'トリプルキック',
+  skilltype:           'かくとう',
+  skillpower:           10,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに3回連続攻撃。当たるたびに、威力が20・30に上がる')
+
+Skilldb.create(id:          325,
+  skillname:            'とんぼがえり',
+  skilltype:           'むし',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '攻撃した後に控えのポケモンと入れ替わる')
+
+Skilldb.create(id:          326,
+  skillname:            'どくガス',
+  skilltype:           'どく',
+  skillpower:           '',
+  skillhit:           80,
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '相手全員',
+  skilleffect:           '相手を「どく」状態にする')
+
+Skilldb.create(id:          327,
+  skillname:            'どくづき',
+  skilltype:           'どく',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手を「どく」状態にする')
+
+Skilldb.create(id:          328,
+  skillname:            'どくどく',
+  skilltype:           'どく',
+  skillpower:           '',
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「どく」状態にする。ターンごとにダメージが増える')
+
+Skilldb.create(id:          329,
+  skillname:            'どくどくのキバ',
+  skilltype:           'どく',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手を「どく」状態。ターンごとにダメージが増える')
+
+Skilldb.create(id:          330,
+  skillname:            'どくのこな',
+  skilltype:           'どく',
+  skillpower:           '',
+  skillhit:           75,
+  skillpp:           35,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「どく」状態にする')
+
+Skilldb.create(id:          331,
+  skillname:            'どくばり',
+  skilltype:           'どく',
+  skillpower:           15,
+  skillhit:           100,
+  skillpp:           35,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手を「どく」状態にする')
+
+Skilldb.create(id:          332,
+  skillname:            'どくびし',
+  skilltype:           'どく',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '相手の場',
+  skilleffect:           '相手がポケモンをくり出すと、相手を「どく」状態にする')
+
+Skilldb.create(id:          333,
+  skillname:            'ドラゴンクロー',
+  skilltype:           'ドラゴン',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          334,
+  skillname:            'ドラゴンダイブ',
+  skilltype:           'ドラゴン',
+  skillpower:           100,
+  skillhit:           75,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '20％の確率で相手をひるませる（そのターンの相手のわざをふうじる）')
+
+Skilldb.create(id:          335,
+  skillname:            'ドラゴンテール',
+  skilltype:           'ドラゴン',
+  skillpower:           60,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手をはじきとばして控えのポケモンをひきずりだす。野生の場合は戦闘が終わる。')
+
+Skilldb.create(id:          336,
+  skillname:            'ドリルくちばし',
+  skilltype:           'ひこう',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          337,
+  skillname:            'ドリルライナー',
+  skilltype:           'じめん',
+  skillpower:           80,
+  skillhit:           95,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'ドリルのように体を回転しながら相手に体当たりする。急所に当たりやすい。')
+
+Skilldb.create(id:          338,
+  skillname:            'ドレインパンチ',
+  skilltype:           'かくとう',
+  skillpower:           75,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に与えたダメージの半分の値だけHPを回復する')
+
+Skilldb.create(id:          339,
+  skillname:            'どろあそび',
+  skilltype:           'じめん',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '全体の場',
+  skilleffect:           'このわざを使ったポケモンが出ていると、でんきタイプの威力が半分になる')
+
+Skilldb.create(id:          340,
+  skillname:            'どろかけ',
+  skilltype:           'じめん',
+  skillpower:           20,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '必ず相手の命中率を1段階下げる')
+
+Skilldb.create(id:          341,
+  skillname:            'どろばくだん',
+  skilltype:           'じめん',
+  skillpower:           65,
+  skillhit:           85,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手の命中率を1段階下げる')
+
+Skilldb.create(id:          342,
+  skillname:            'どろぼう',
+  skilltype:           'あく',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '自分が道具を持っていない時、相手の道具をうばえる')
+
+Skilldb.create(id:          343,
+  skillname:            'ドわすれ',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「とくぼう」を2段階上げる')
+
+Skilldb.create(id:          344,
+  skillname:            'ナイトバースト',
+  skilltype:           'あく',
+  skillpower:           85,
+  skillhit:           95,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '暗黒の衝撃波をとばして相手を攻撃する。命中率をさげることがある。')
+
+Skilldb.create(id:          345,
+  skillname:            'ナイトヘッド',
+  skilltype:           'ゴースト',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '自分のレベルと同じダメージを与える')
+
+Skilldb.create(id:          346,
+  skillname:            'なかまづくり',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '不思議なリズムでおどる。動きをまねさせて自分と相手の特性を同じにする。')
+
+Skilldb.create(id:          347,
+  skillname:            'なきごえ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '相手全員',
+  skilleffect:           '相手の「こうげき」を1段階下げる')
+
+Skilldb.create(id:          348,
+  skillname:            'なげつける',
+  skilltype:           'あく',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'もっているどうぐを相手に投げつけて攻撃する。どうぐによって威力や効果が違う')
+
+Skilldb.create(id:          349,
+  skillname:            'なしくずし',
+  skilltype:           'ノーマル',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'すきをみて堅実に攻撃する。相手の能力変化に関係なくダメージを与える。')
+
+Skilldb.create(id:          350,
+  skillname:            'なまける',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '最大HPの半分だけHPを回復する')
+
+Skilldb.create(id:          351,
+  skillname:            'なみのり',
+  skilltype:           'みず',
+  skillpower:           95,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '自分以外',
+  skilleffect:           '通常攻撃。相手が「ダイビング」を使っている時は、2倍のダメージ')
+
+Skilldb.create(id:          352,
+  skillname:            'なやみのタネ',
+  skilltype:           'くさ',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手のとくせいを「ふみん」に変える。とくせい「なまけ」には効かない')
+
+Skilldb.create(id:          353,
+  skillname:            'なりきり',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手のとくせいをコピーする（とくせい「ふしぎなまもり」はコピーできない）')
+
+Skilldb.create(id:          354,
+  skillname:            'ニードルアーム',
+  skilltype:           'くさ',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手をひるませる')
+
+Skilldb.create(id:          355,
+  skillname:            'にぎりつぶす',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手のHPが多く残っているほど威力が上がる')
+
+Skilldb.create(id:          356,
+  skillname:            'ニトロチャージ',
+  skilltype:           'ほのお',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '炎をまとい相手を攻撃する。力をためて自分の素早さをあげる。')
+
+Skilldb.create(id:          357,
+  skillname:            'にどげり',
+  skilltype:           'かくとう',
+  skillpower:           30,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2回連続で攻撃する')
+
+Skilldb.create(id:          358,
+  skillname:            'にほんばれ',
+  skilltype:           'ほのお',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '全体の場',
+  skilleffect:           '5ターンの間「ひざしがつよい」状態になり、ほのおタイプの威力が上がる')
+
+Skilldb.create(id:          359,
+  skillname:            'にらみつける',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '相手全員',
+  skilleffect:           '相手の「ぼうぎょ」を1段階下げる')
+
+Skilldb.create(id:          360,
+  skillname:            'ねがいごと',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '次のターン終了時、最大HPの半分HPを回復。交代しても効果は残る')
+
+Skilldb.create(id:          361,
+  skillname:            'ねこだまし',
+  skilltype:           'ノーマル',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '先制攻撃で必ず相手をひるませる。出てきた最初のターンしか効果がない')
+
+Skilldb.create(id:          362,
+  skillname:            'ネコにこばん',
+  skilltype:           'ノーマル',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '戦闘終了時にお金が多めに入る。（自分のレベル×攻撃回数×5円）')
+
+Skilldb.create(id:          363,
+  skillname:            'ねこのて',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分以外のポケモンの技をランダムで出す')
+
+Skilldb.create(id:          364,
+  skillname:            'ねごと',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分が「ねむり」状態の時、持っているわざをランダムで使う')
+
+Skilldb.create(id:          365,
+  skillname:            'ねっとう',
+  skilltype:           'みず',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '熱く煮えたぎる水を相手に発射して攻撃する。やけど状態にすることがある。')
+
+Skilldb.create(id:          366,
+  skillname:            'ねっぷう',
+  skilltype:           'ほのお',
+  skillpower:           100,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '10％の確率で相手を「やけど」状態。相手が「こおり」状態なら、とける')
+
+Skilldb.create(id:          367,
+  skillname:            'ねむりごな',
+  skilltype:           'くさ',
+  skillpower:           '',
+  skillhit:           75,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「ねむり」状態にする')
+
+Skilldb.create(id:          368,
+  skillname:            'ねむる',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'HPと状態異常をすべて回復し、2ターンの間「ねむり」状態になる')
+
+Skilldb.create(id:          369,
+  skillname:            'ねをはる',
+  skilltype:           'くさ',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '毎ターン少しづつHPを回復する。わざを使ったポケモンは交代できなくなる')
+
+Skilldb.create(id:          370,
+  skillname:            'ねんりき',
+  skilltype:           'エスパー',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           25,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「こんらん」状態にする')
+
+Skilldb.create(id:          371,
+  skillname:            'のしかかり',
+  skilltype:           'ノーマル',
+  skillpower:           85,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手を「まひ」状態にする')
+
+Skilldb.create(id:          372,
+  skillname:            'のみこむ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'わざ「たくわえる」を使った数だけHPがたくさん回復（たくわえるを使っていないと無効）')
+
+Skilldb.create(id:          373,
+  skillname:            'のろい',
+  skilltype:           'ゴースト',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '不定',
+  skilleffect:           '「すばやさ」が1段階下がり、「こうげき」と「ぼうぎょ」が1段階上がる。（ゴーストタイプが使うと、自分のHPを1/2減らして、相手のHPを毎ターン1/4減らす）')
+
+Skilldb.create(id:          374,
+  skillname:            'ハートスタンプ',
+  skilltype:           'エスパー',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           25,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'かわいいしぐさで油断させて強烈な一撃を浴びせる。相手をひるませることがある。')
+
+Skilldb.create(id:          375,
+  skillname:            'ハートスワップ',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           'バトル場にいるポケモンたちの、補助効果を入れ替える')
+
+Skilldb.create(id:          376,
+  skillname:            'ハードプラント',
+  skilltype:           'くさ',
+  skillpower:           150,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '使用した次のターンは行動できない')
+
+Skilldb.create(id:          377,
+  skillname:            'ハードローラー',
+  skilltype:           'むし',
+  skillpower:           65,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'まるめた体で回転して相手をおしつぶす。相手をひるませることがある。')
+
+Skilldb.create(id:          378,
+  skillname:            'ハイドロカノン',
+  skilltype:           'みず',
+  skillpower:           150,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '使用した次のターンは行動できない')
+
+Skilldb.create(id:          379,
+  skillname:            'ハイドロポンプ',
+  skilltype:           'みず',
+  skillpower:           120,
+  skillhit:           80,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          380,
+  skillname:            'ハイパーボイス',
+  skilltype:           'ノーマル',
+  skillpower:           90,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          381,
+  skillname:            'はかいこうせん',
+  skilltype:           'ノーマル',
+  skillpower:           150,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '攻撃した次のターンは行動できない')
+
+Skilldb.create(id:          382,
+  skillname:            'はがねのつばさ',
+  skilltype:           'はがね',
+  skillpower:           70,
+  skillhit:           90,
+  skillpp:           25,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10%の確率で自分の「ぼうぎょ」ランクが1段階ずつ上がる')
+
+Skilldb.create(id:          383,
+  skillname:            'はきだす',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           'わざ「たくわえる」を使った数だけ威力が高くなる。1つの時は100、2つの時は200、3つの時は300になる。わざ「たくわえる」を使っていない時は失敗する')
+
+Skilldb.create(id:          384,
+  skillname:            'ハサミギロチン',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           30,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手を「ひんし」状態にする。相手のレベルが自分より高いと失敗する。(30＋自分のレベル－相手のレベル)が命中率になる')
+
+Skilldb.create(id:          385,
+  skillname:            'はさむ',
+  skilltype:           'ノーマル',
+  skillpower:           55,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          386,
+  skillname:            'はじけるほのお',
+  skilltype:           'ほのお',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '当たるとはじける炎で相手を攻撃する。はじけた炎は隣の相手にもふりかかる。')
+
+Skilldb.create(id:          387,
+  skillname:            'はたきおとす',
+  skilltype:           'あく',
+  skillpower:           20,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手を「どうぐ」を持っていない状態にする。戦闘終了後、「どうぐ」は元に戻る')
+
+Skilldb.create(id:          388,
+  skillname:            'はたく',
+  skilltype:           'ノーマル',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           35,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          389,
+  skillname:            'はっけい',
+  skilltype:           'かくとう',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手を「まひ」状態にする')
+
+Skilldb.create(id:          390,
+  skillname:            'はっぱカッター',
+  skilltype:           'くさ',
+  skillpower:           55,
+  skillhit:           95,
+  skillpp:           25,
+  skillkind:           '物理',
+  skillscope:           '相手全員',
+  skilleffect:           '急所にあたりやすい')
+
+Skilldb.create(id:          391,
+  skillname:            'はどうだん',
+  skilltype:           'かくとう',
+  skillpower:           90,
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手に必ず攻撃が当たる')
+
+Skilldb.create(id:          392,
+  skillname:            'はなびらのまい',
+  skilltype:           'くさ',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '相手ランダム',
+  skilleffect:           '2～3ターン連続で攻撃し、その後自分は「こんらん」状態になる')
+
+Skilldb.create(id:          393,
+  skillname:            'はねやすめ',
+  skilltype:           'ひこう',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '最大値の半分の値だけHPを回復するが、そのターンはひこうタイプではなくなる')
+
+Skilldb.create(id:          394,
+  skillname:            'はねる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '何も起こらない')
+
+Skilldb.create(id:          395,
+  skillname:            'はめつのねがい',
+  skilltype:           'はがね',
+  skillpower:           140,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '2ターン後に攻撃する。交換した場合は同じ位置にいるポケモンに攻撃する。ダメージ計算は先に行われ、タイプに関係なくダメージを与える')
+
+Skilldb.create(id:          396,
+  skillname:            'はらだいこ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分のHPを最大HPの半分だけ減らす代わりに、自分の「こうげき」ランクを最大まで上げる')
+
+Skilldb.create(id:          397,
+  skillname:            'バークアウト',
+  skilltype:           'あく',
+  skillpower:           55,
+  skillhit:           95,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           'まくしたてるように怒鳴りつけて相手の特攻をさげる。')
+
+Skilldb.create(id:          398,
+  skillname:            'ばかぢから',
+  skilltype:           'かくとう',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '攻撃後、自分の「こうげき」「ぼうぎょ」ランクが1段階ずつ下がる')
+
+Skilldb.create(id:          399,
+  skillname:            'ばくれつパンチ',
+  skilltype:           'かくとう',
+  skillpower:           100,
+  skillhit:           50,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '必ず相手を「こんらん」状態にする')
+
+Skilldb.create(id:          400,
+  skillname:            'バトンタッチ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '他の味方のポケモンと交換し、かかっていた補助効果を引き継ぐ')
+
+Skilldb.create(id:          401,
+  skillname:            'バブルこうせん',
+  skilltype:           'みず',
+  skillpower:           65,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10%の確率で相手の「すばやさ」ランクを1段階下げる')
+
+Skilldb.create(id:          402,
+  skillname:            'バリアー',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「ぼうぎょ」ランクを2段階上げる')
+
+Skilldb.create(id:          403,
+  skillname:            'バレットパンチ',
+  skilltype:           'はがね',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '必ず先制攻撃ができる')
+
+Skilldb.create(id:          404,
+  skillname:            'パワーウィップ',
+  skilltype:           'くさ',
+  skillpower:           120,
+  skillhit:           85,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          405,
+  skillname:            'パワーシェア',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '超能力で自分と相手の攻撃と特攻をたして半分にわける。')
+
+Skilldb.create(id:          406,
+  skillname:            'パワージェム',
+  skilltype:           'いわ',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          407,
+  skillname:            'パワースワップ',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手と自分の「こうげき」「とくこう」の「のうりょく」変化を入れ替える')
+
+Skilldb.create(id:          408,
+  skillname:            'パワートリック',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '「こうげき」と「ぼうぎょ」を入れ替える（「のうりょく」変化は入れ替わらない）')
+
+Skilldb.create(id:          409,
+  skillname:            'ヒートスタンプ',
+  skilltype:           'ほのお',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '燃える体で相手にぶつかって攻撃する。自分が相手より重いほど威力があがる。')
+
+Skilldb.create(id:          410,
+  skillname:            'ひかりのかべ',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '味方の場',
+  skilleffect:           '5ターンの間、相手の特殊攻撃のダメージを半分にする。味方2体の場合は半分ではなく2/3になる。急所に当たった場合は軽減されない。交換しても効果は続く')
+
+Skilldb.create(id:          411,
+  skillname:            'ひっかく',
+  skilltype:           'ノーマル',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           35,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          412,
+  skillname:            'ひっさつまえば',
+  skilltype:           'ノーマル',
+  skillpower:           80,
+  skillhit:           90,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10%の確率で相手をひるませる')
+
+Skilldb.create(id:          413,
+  skillname:            'ひのこ',
+  skilltype:           'ほのお',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           25,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10%の確率で相手を「やけど」状態にする。相手が「こおり」状態の時「こおり」状態が治る')
+
+Skilldb.create(id:          414,
+  skillname:            'ひみつのちから',
+  skilltype:           'ノーマル',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30%の確率で相手に以下の追加効果を与える。地形が草むらの時は「どく」状態、長い草むらの時は「ねむり」状態、水中の時は「ぼう ぎょ」ランクを1段階下げ、池の時は「すばやさ」ランクを1段階下げ、海の時は「こうげき」ランクを1段階下げ、砂地の時は命中率を1段階下げ、洞窟の時 はひるませ、岩場の時は「こんらん」状態、その他は「まひ」状態にする。')
+
+Skilldb.create(id:          415,
+  skillname:            'ビルドアップ',
+  skilltype:           'かくとう',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「こうげき」「ぼうぎょ」ランクを1段階ずつ上げる')
+
+Skilldb.create(id:          416,
+  skillname:            'ピヨピヨパンチ',
+  skilltype:           'ノーマル',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '20%の確率で相手を「こんらん」状態にする。')
+
+Skilldb.create(id:          417,
+  skillname:            'ファストガード',
+  skilltype:           'かくとう',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '味方の場',
+  skilleffect:           '自分と味方を相手の先制攻撃から守る。連続でだすと失敗しやすい。')
+
+Skilldb.create(id:          418,
+  skillname:            'ふいうち',
+  skilltype:           'あく',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '先制攻撃ができる。相手の選んだわざが攻撃わざ以外の場合は失敗する')
+
+Skilldb.create(id:          419,
+  skillname:            'ふういん',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分が覚えている「わざ」を相手は使えなくなる')
+
+Skilldb.create(id:          420,
+  skillname:            'フェイント',
+  skilltype:           'ノーマル',
+  skillpower:           30,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '「まもる」「みきり」を使っている相手のみに当たり、それぞれの効果をなくす')
+
+Skilldb.create(id:          421,
+  skillname:            'フェザーダンス',
+  skilltype:           'ひこう',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の「こうげき」ランクを2段階下げる')
+
+Skilldb.create(id:          422,
+  skillname:            'ふきとばし',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '野生のポケモンとの戦闘を終了する。トレーナー戦の場合はポケモンを強制的に交換させる')
+
+Skilldb.create(id:          423,
+  skillname:            'ふくろだたき',
+  skilltype:           'あく',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '自分を含む「ひんし」や異常状態でない「てもち」のポケモンの数だけ攻撃する')
+
+Skilldb.create(id:          424,
+  skillname:            'ふぶき',
+  skilltype:           'こおり',
+  skillpower:           120,
+  skillhit:           70,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '10%の確率で相手を「こおり」状態にする')
+
+Skilldb.create(id:          425,
+  skillname:            'ふみつけ',
+  skilltype:           'ノーマル',
+  skillpower:           65,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手をひるませる')
+
+Skilldb.create(id:          426,
+  skillname:            'フラッシュ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の命中率を1段階下げる')
+
+Skilldb.create(id:          427,
+  skillname:            'フラフラダンス',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分以外',
+  skilleffect:           '自分以外全てのポケモンが「こんらん」状態になる')
+
+Skilldb.create(id:          428,
+  skillname:            'フリーズボルト',
+  skilltype:           'こおり',
+  skillpower:           140,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '電気をまとった氷の塊で2ターン目に相手をたたきつける。まひ状態にすることがある。')
+
+Skilldb.create(id:          429,
+  skillname:            'フリーフォール',
+  skilltype:           'ひこう',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターン目で相手を空へ連れさり2ターン目に落として攻撃する。連れさられた相手は動けない。')
+
+Skilldb.create(id:          430,
+  skillname:            'ふるいたてる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分を奮いたてて攻撃と特攻をあげる。')
+
+Skilldb.create(id:          431,
+  skillname:            'フレアドライブ',
+  skilltype:           'ほのお',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '与えたダメージの3分の1を自分が受ける。10％の確率で相手を「やけど」状態')
+
+Skilldb.create(id:          432,
+  skillname:            'ふんえん',
+  skilltype:           'ほのお',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '自分以外',
+  skilleffect:           '相手を「やけど」状態にする')
+
+Skilldb.create(id:          433,
+  skillname:            'ふんか',
+  skilltype:           'ほのお',
+  skillpower:           150,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '自分のHPが減ると、威力も下がる。相手が「こおり」状態ならとける')
+
+Skilldb.create(id:          434,
+  skillname:            'Ｖジェネレート',
+  skilltype:           'ほのお',
+  skillpower:           180,
+  skillhit:           95,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'しゃく熱の炎を額から発生させて捨て身の体当たり。防御特防素早さがさがる。')
+
+Skilldb.create(id:          435,
+  skillname:            'ブラストバーン',
+  skilltype:           'ほのお',
+  skillpower:           150,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '使用した次のターンは行動ができない')
+
+Skilldb.create(id:          436,
+  skillname:            'ブレイククロー',
+  skilltype:           'ノーマル',
+  skillpower:           75,
+  skillhit:           95,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '50％の確率で相手の「ぼうぎょ」を1段階下げる')
+
+Skilldb.create(id:          437,
+  skillname:            'ブレイズキック',
+  skilltype:           'ほのお',
+  skillpower:           85,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「やけど」状態にする。相手が「こおり」状態ならとける')
+
+Skilldb.create(id:          438,
+  skillname:            'ブレイブバード',
+  skilltype:           'ひこう',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に与えたダメージの3分の1を自分が受ける')
+
+Skilldb.create(id:          439,
+  skillname:            'プレゼント',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           90,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '40％で威力40、30％で威力80、10％で威力120、20％で相手のHPの1/4を回復')
+
+Skilldb.create(id:          440,
+  skillname:            'ヘドロウェーブ',
+  skilltype:           'どく',
+  skillpower:           95,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '自分以外',
+  skilleffect:           'ヘドロの波で自分の周りにいるものを攻撃する。毒状態にすることがある。')
+
+Skilldb.create(id:          441,
+  skillname:            'ヘドロこうげき',
+  skilltype:           'どく',
+  skillpower:           65,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手を「どく」状態にする')
+
+Skilldb.create(id:          442,
+  skillname:            'ヘドロばくだん',
+  skilltype:           'どく',
+  skillpower:           90,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手を「どく」状態にする')
+
+Skilldb.create(id:          443,
+  skillname:            'ヘビーボンバー',
+  skilltype:           'はがね',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '重たい体で相手にぶつかって攻撃する。自分が相手より重いほど威力があがる。')
+
+Skilldb.create(id:          444,
+  skillname:            'へびにらみ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           90,
+  skillpp:           30,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手を「まひ」状態にする')
+
+Skilldb.create(id:          445,
+  skillname:            'へんしん',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手に変身することにより、同じ「とくせい」同じ「わざ」を使えるようになる')
+
+Skilldb.create(id:          446,
+  skillname:            'ベノムショック',
+  skilltype:           'どく',
+  skillpower:           65,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '特殊な毒液を浴びせかける。毒状態の相手には威力が2倍になる。')
+
+Skilldb.create(id:          447,
+  skillname:            'ほうでん',
+  skilltype:           'でんき',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '自分以外',
+  skilleffect:           '30％の確率で相手を「まひ」状態にする')
+
+Skilldb.create(id:          448,
+  skillname:            'ほえる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '野生のポケモンとのバトルを終了。トレーナー戦では強制的に交代させる')
+
+Skilldb.create(id:          449,
+  skillname:            'ほごしょく',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分のタイプが地形に合わせたタイプに変わる。その他はノーマルタイプに変わる')
+
+Skilldb.create(id:          450,
+  skillname:            'ほしがる',
+  skilltype:           'ノーマル',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           40,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '自分が道具を持っていない時、相手の道具をうばえる（通信対戦でも使える）')
+
+Skilldb.create(id:          451,
+  skillname:            'ほたるび',
+  skilltype:           'むし',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「とくこう」を2段階上げる')
+
+Skilldb.create(id:          452,
+  skillname:            'ホネこんぼう',
+  skilltype:           'じめん',
+  skillpower:           65,
+  skillhit:           85,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手をひるませる')
+
+Skilldb.create(id:          453,
+  skillname:            'ホネブーメラン',
+  skilltype:           'じめん',
+  skillpower:           50,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2回連続で攻撃する')
+
+Skilldb.create(id:          454,
+  skillname:            'ほのおのうず',
+  skilltype:           'ほのお',
+  skillpower:           35,
+  skillhit:           85,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '2～5ターン連続で攻撃。相手は逃げられない。相手が「こおり」状態ならとける')
+
+Skilldb.create(id:          455,
+  skillname:            'ほのおのキバ',
+  skilltype:           'ほのお',
+  skillpower:           65,
+  skillhit:           95,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「やけど」状態にするか、ひるませる。相手が「こおり」状態のときはとける')
+
+Skilldb.create(id:          456,
+  skillname:            'ほのおのちかい',
+  skilltype:           'ほのお',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '炎の柱で攻撃する。くさと組みあわせると威力があがって周りが火の海になる。')
+
+Skilldb.create(id:          457,
+  skillname:            'ほのおのパンチ',
+  skilltype:           'ほのお',
+  skillpower:           75,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「やけど」状態にする。相手が「こおり」状態ならとける')
+
+Skilldb.create(id:          458,
+  skillname:            'ほのおのまい',
+  skilltype:           'ほのお',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '炎をまといはばたいて相手を攻撃する。自分の特攻があがることがある。')
+
+Skilldb.create(id:          459,
+  skillname:            'ほろびのうた',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '全員',
+  skilleffect:           '使った時にバトルに出ていた全てのポケモンは、3ターン後に「ひんし」状態になる')
+
+Skilldb.create(id:          460,
+  skillname:            'ボーンラッシュ',
+  skilltype:           'じめん',
+  skillpower:           25,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2～5回連続で攻撃する')
+
+Skilldb.create(id:          461,
+  skillname:            'ぼうぎょしれい',
+  skilltype:           'むし',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「ぼうぎょ」と「とくぼう」を1段階上げる')
+
+Skilldb.create(id:          462,
+  skillname:            'ぼうふう',
+  skilltype:           'ひこう',
+  skillpower:           120,
+  skillhit:           70,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '強烈な風で相手を包みこんで攻撃する。相手を混乱させることがある。')
+
+Skilldb.create(id:          463,
+  skillname:            'ボディパージ',
+  skilltype:           'はがね',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '体のムダな部分を削る。自分の素早さをぐーんとあげて体重も軽くなる。')
+
+Skilldb.create(id:          464,
+  skillname:            'ボルテッカー',
+  skilltype:           'でんき',
+  skillpower:           120,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に与えたダメージの1/3を自分も受ける')
+
+Skilldb.create(id:          465,
+  skillname:            'ボルトチェンジ',
+  skilltype:           'でんき',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '攻撃したあとものすごいスピードでもどってきて控えポケモンと入れ替わる。')
+
+Skilldb.create(id:          466,
+  skillname:            'ポイズンテール',
+  skilltype:           'どく',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           25,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「どく」状態にする。急所にもあたりやすい')
+
+Skilldb.create(id:          467,
+  skillname:            'まきつく',
+  skilltype:           'ノーマル',
+  skillpower:           15,
+  skillhit:           90,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '2～5ターンの間ダメージを与え続ける。その間は逃げられない')
+
+Skilldb.create(id:          468,
+  skillname:            'まきびし',
+  skilltype:           'じめん',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '相手の場',
+  skilleffect:           '相手がポケモンを交代する度にダメージ。使うごとに3回まで威力が上がる')
+
+Skilldb.create(id:          469,
+  skillname:            'マグニチュード',
+  skilltype:           'じめん',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '物理',
+  skillscope:           '自分以外',
+  skilleffect:           '威力が10、30、50、70、90、110、150の中で変わる。相手が「あなをほる」を使っている時は威力が2倍になる')
+
+Skilldb.create(id:          470,
+  skillname:            'マグネットボム',
+  skilltype:           'はがね',
+  skillpower:           60,
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に必ず攻撃が当たる')
+
+Skilldb.create(id:          471,
+  skillname:            'マグマストーム',
+  skilltype:           'ほのお',
+  skillpower:           120,
+  skillhit:           75,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '2～5ターンの間ダメージを与え続ける。その間は逃げられない')
+
+Skilldb.create(id:          472,
+  skillname:            'マジカルリーフ',
+  skilltype:           'くさ',
+  skillpower:           60,
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手に必ず攻撃が当たる')
+
+Skilldb.create(id:          473,
+  skillname:            'マジックコート',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '「どく」「まひ」「ねむり」「こんらん」「やどりぎのタネ」などの効果があるわざをはね返す')
+
+Skilldb.create(id:          474,
+  skillname:            'マジックルーム',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '全体の場',
+  skilleffect:           'まか不思議な空間をつくる。5ターンのあいだすべてのポケモンの道具の効果がなくなる。')
+
+Skilldb.create(id:          475,
+  skillname:            'マッドショット',
+  skilltype:           'じめん',
+  skillpower:           55,
+  skillhit:           95,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '必ず相手の「すばやさ」を1段階下げる')
+
+Skilldb.create(id:          476,
+  skillname:            'マッハパンチ',
+  skilltype:           'かくとう',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '必ず先制攻撃できる')
+
+Skilldb.create(id:          477,
+  skillname:            'まねっこ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'ひとつ前に出たわざを出す')
+
+Skilldb.create(id:          478,
+  skillname:            'まもる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'そのターンの相手のわざをうけない。（連続で出すと失敗しやすい）')
+
+Skilldb.create(id:          479,
+  skillname:            'まるくなる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「ぼうぎょ」を1段階上げる')
+
+Skilldb.create(id:          480,
+  skillname:            'まわしげり',
+  skilltype:           'かくとう',
+  skillpower:           60,
+  skillhit:           85,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手をひるませる')
+
+Skilldb.create(id:          481,
+  skillname:            'みかづきのまい',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分は「ひんし」状態になるが、つぎに出てくるポケモンのHPと状態異常を全回復する')
+
+Skilldb.create(id:          482,
+  skillname:            'みがわり',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '最大HPの1/4を使って、自分の分身を作る')
+
+Skilldb.create(id:          483,
+  skillname:            'みきり',
+  skilltype:           'かくとう',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'そのターンの相手のわざをうけない（連続で出すと失敗しやすい）')
+
+Skilldb.create(id:          484,
+  skillname:            'ミサイルばり',
+  skilltype:           'むし',
+  skillpower:           14,
+  skillhit:           85,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2～5回連続で攻撃する')
+
+Skilldb.create(id:          485,
+  skillname:            'むしのていこう',
+  skilltype:           'むし',
+  skillpower:           30,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '抵抗して相手を攻撃する。相手の特攻をさげる。')
+
+Skilldb.create(id:          486,
+  skillname:            'ミストボール',
+  skilltype:           'エスパー',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '50％の確率で相手の「とくこう」を1段階下げる')
+
+Skilldb.create(id:          487,
+  skillname:            'みずあそび',
+  skilltype:           'みず',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '全体の場',
+  skilleffect:           'このわざを使ったポケモンが出ている間は、ほのおタイプのわざの威力が半分になる')
+
+Skilldb.create(id:          488,
+  skillname:            'みずでっぽう',
+  skilltype:           'みず',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           25,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          489,
+  skillname:            'みずのちかい',
+  skilltype:           'みず',
+  skillpower:           50,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '水の柱で攻撃する。ほのおと組みあわせると威力があがって空ににじがかかる。')
+
+Skilldb.create(id:          490,
+  skillname:            'みずのはどう',
+  skilltype:           'みず',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '20％の確率で相手を「こんらん」状態にする')
+
+Skilldb.create(id:          491,
+  skillname:            'みずびたし',
+  skilltype:           'みず',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           'たくさんの水を浴びせかけて相手をみずタイプにする。')
+
+Skilldb.create(id:          492,
+  skillname:            'みだれづき',
+  skilltype:           'ノーマル',
+  skillpower:           15,
+  skillhit:           85,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2～5回連続で攻撃する')
+
+Skilldb.create(id:          493,
+  skillname:            'みだれひっかき',
+  skilltype:           'ノーマル',
+  skillpower:           18,
+  skillhit:           80,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2～5回連続で攻撃する')
+
+Skilldb.create(id:          494,
+  skillname:            'みちづれ',
+  skilltype:           'ゴースト',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           'このわざを使った後に、相手の攻撃で「ひんし」になると、相手も「ひんし」になる')
+
+Skilldb.create(id:          495,
+  skillname:            'みねうち',
+  skilltype:           'ノーマル',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           40,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '「ひんし」状態になるダメージを与えても、必ずHPを1残す')
+
+Skilldb.create(id:          496,
+  skillname:            'みやぶる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の回避率に関係なく攻撃が当たる。ゴーストタイプに、ノーマル・かくとうタイプのわざが当たるようになる')
+
+Skilldb.create(id:          497,
+  skillname:            'ミラーコート',
+  skilltype:           'エスパー',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '不定',
+  skilleffect:           '必ず後攻になるが、相手の「特殊攻撃」を2倍にして返す')
+
+Skilldb.create(id:          498,
+  skillname:            'ミラーショット',
+  skilltype:           'はがね',
+  skillpower:           65,
+  skillhit:           85,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手の命中率を1段階下げる')
+
+Skilldb.create(id:          499,
+  skillname:            'ミラータイプ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手のタイプを反射して自分も同じタイプになる。')
+
+Skilldb.create(id:          500,
+  skillname:            'みらいよち',
+  skilltype:           'エスパー',
+  skillpower:           100,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '2ターン後に相手を攻撃。相手のタイプを無視したダメージ')
+
+Skilldb.create(id:          501,
+  skillname:            'ミラクルアイ',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の回避率を無視して攻撃が当たる。あくタイプに、エスパータイプの攻撃が当たる')
+
+Skilldb.create(id:          502,
+  skillname:            'ミルクのみ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '最大HPの半分回復する/「てもち」ポケモンにHPをわけ与える')
+
+Skilldb.create(id:          503,
+  skillname:            'むしくい',
+  skilltype:           'むし',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手がバトルに効果のあるきのみを持っていた場合、きのみの効果を自分に発揮させる')
+
+Skilldb.create(id:          504,
+  skillname:            'むしのさざめき',
+  skilltype:           'むし',
+  skillpower:           90,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手の「とくぼう」を1段階下げる')
+
+Skilldb.create(id:          505,
+  skillname:            'めいそう',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「とくこう」と「とくぼう」を1段階上げる')
+
+Skilldb.create(id:          506,
+  skillname:            'メガトンキック',
+  skilltype:           'ノーマル',
+  skillpower:           120,
+  skillhit:           75,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          507,
+  skillname:            'メガトンパンチ',
+  skilltype:           'ノーマル',
+  skillpower:           80,
+  skillhit:           85,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          508,
+  skillname:            'メガドレイン',
+  skilltype:           'くさ',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手に与えたダメージの半分だけHPを回復する')
+
+Skilldb.create(id:          509,
+  skillname:            'メガホーン',
+  skilltype:           'むし',
+  skillpower:           120,
+  skillhit:           85,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          510,
+  skillname:            'めざましビンタ',
+  skilltype:           'かくとう',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '「ねむり」状態の相手に2倍のダメージを与えるが、「ねむり」状態は治る')
+
+Skilldb.create(id:          511,
+  skillname:            'めざめるパワー',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           'わざを使うポケモンによって、タイプと威力が変わる')
+
+Skilldb.create(id:          512,
+  skillname:            'メタルクロー',
+  skilltype:           'はがね',
+  skillpower:           50,
+  skillhit:           95,
+  skillpp:           35,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で自分の「こうげき」を1段階上げる')
+
+Skilldb.create(id:          513,
+  skillname:            'メタルバースト',
+  skilltype:           'はがね',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '不定',
+  skilleffect:           'そのターンの最後に受けたダメージを1.5倍にして相手に返す')
+
+Skilldb.create(id:          514,
+  skillname:            'メロメロ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '50％の確率であいては攻撃できなくなる。♂なら♀に、♀なら♂にしか効果がない')
+
+Skilldb.create(id:          515,
+  skillname:            'ものまね',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手が最後に使ったわざを、そのバトル中だけコピーして使える（コピーわざのPPは5）')
+
+Skilldb.create(id:          516,
+  skillname:            'もろはのずつき',
+  skilltype:           'いわ',
+  skillpower:           150,
+  skillhit:           80,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '相手に与えたダメージの2分の1を自分が受ける')
+
+Skilldb.create(id:          517,
+  skillname:            'やきつくす',
+  skilltype:           'ほのお',
+  skillpower:           30,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '炎で相手を攻撃する。相手がきのみを持っているとき燃やして使えなくする。')
+
+Skilldb.create(id:          518,
+  skillname:            'やつあたり',
+  skilltype:           'ノーマル',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'ポケモンのなつき具合で、わざの威力が変化する。なついていないほど威力が高い')
+
+Skilldb.create(id:          519,
+  skillname:            'やどりぎのタネ',
+  skilltype:           'くさ',
+  skillpower:           '',
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '毎ターン相手からHPをうばって回復する。交代しても効果は続く')
+
+Skilldb.create(id:          520,
+  skillname:            'やまあらし',
+  skilltype:           'かくとう',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '強烈な一撃を相手にくりだす。攻撃は必ず急所に当たる。')
+
+Skilldb.create(id:          521,
+  skillname:            'ゆうわく',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '相手全員',
+  skilleffect:           '「とくこう」を2段階下げる。♂なら♀に、♀なら♂にしか効果がない')
+
+Skilldb.create(id:          522,
+  skillname:            'ゆきなだれ',
+  skilltype:           'こおり',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'そのターンに相手からダメージを受けると、わざの威力が2倍になる')
+
+Skilldb.create(id:          523,
+  skillname:            'ゆびをふる',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '全ての技の中から、ランダムで1つを出す')
+
+Skilldb.create(id:          524,
+  skillname:            'ゆめくい',
+  skilltype:           'エスパー',
+  skillpower:           100,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '相手が「ねむり」状態の時のみ使える。与えたダメージの半分、HPが回復する')
+
+Skilldb.create(id:          525,
+  skillname:            'ようかいえき',
+  skilltype:           'どく',
+  skillpower:           40,
+  skillhit:           100,
+  skillpp:           30,
+  skillkind:           '特殊',
+  skillscope:           '相手全員',
+  skilleffect:           '10％の確率で相手の「ぼうぎょ」を1段階下げる')
+
+Skilldb.create(id:          526,
+  skillname:            'ヨガのポーズ',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「こうげき」を1段階上げる')
+
+Skilldb.create(id:          527,
+  skillname:            'よこどり',
+  skilltype:           'あく',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '相手がそのターンに使用した、回復系のわざ、「のうりょく」を変化させるわざの効果をうばう')
+
+Skilldb.create(id:          528,
+  skillname:            'らいげき',
+  skilltype:           'でんき',
+  skillpower:           130,
+  skillhit:           85,
+  skillpp:           5,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'ぼうだいな電気を身にまとって相手に突進して攻撃する。まひ状態にすることがある。')
+
+Skilldb.create(id:          529,
+  skillname:            'ラスターカノン',
+  skilltype:           'はがね',
+  skillpower:           80,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手の「とくぼう」を1段階下げる')
+
+Skilldb.create(id:          530,
+  skillname:            'ラスターパージ',
+  skilltype:           'エスパー',
+  skillpower:           70,
+  skillhit:           100,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '50％の確率で相手の「とくぼう」を1段階下げる')
+
+Skilldb.create(id:          531,
+  skillname:            'リーフストーム',
+  skilltype:           'くさ',
+  skillpower:           140,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '自分の「とくこう」が2段階下がる')
+
+Skilldb.create(id:          532,
+  skillname:            'リーフブレード',
+  skilltype:           'くさ',
+  skillpower:           90,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '急所にあたりやすい')
+
+Skilldb.create(id:          533,
+  skillname:            'リサイクル',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '持っている道具を1回使っても、もう1度使うことができる')
+
+Skilldb.create(id:          534,
+  skillname:            'リフレクター',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '味方の場',
+  skilleffect:           '5ターンの間、相手の物理攻撃のダメージを半分にする（使用したポケモンが交代しても効果は続く。2人だと効果が薄くなる）')
+
+Skilldb.create(id:          535,
+  skillname:            'リフレッシュ',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '「どく」「まひ」「やけど」状態が治る')
+
+Skilldb.create(id:          536,
+  skillname:            'リベンジ',
+  skilltype:           'かくとう',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           'そのターンに攻撃を受けると、わざの威力が2倍になる')
+
+Skilldb.create(id:          537,
+  skillname:            'りゅうせいぐん',
+  skilltype:           'ドラゴン',
+  skillpower:           140,
+  skillhit:           90,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '自分の「とくこう」が2段階下がる')
+
+Skilldb.create(id:          538,
+  skillname:            'りゅうのいかり',
+  skilltype:           'ドラゴン',
+  skillpower:           1,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '固定で40のダメージを与える')
+
+Skilldb.create(id:          539,
+  skillname:            'りゅうのいぶき',
+  skilltype:           'ドラゴン',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '30％の確率で相手を「まひ」状態にする')
+
+Skilldb.create(id:          540,
+  skillname:            'りゅうのはどう',
+  skilltype:           'ドラゴン',
+  skillpower:           90,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '通常攻撃')
+
+Skilldb.create(id:          541,
+  skillname:            'りゅうのまい',
+  skilltype:           'ドラゴン',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「こうげき」と「すばやさ」を1段階上げる')
+
+Skilldb.create(id:          542,
+  skillname:            'りんしょう',
+  skilltype:           'ノーマル',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '歌で相手を攻撃する。みんなで輪唱すると続けてだすことができ威力もあがる。')
+
+Skilldb.create(id:          543,
+  skillname:            'れいとうパンチ',
+  skilltype:           'こおり',
+  skillpower:           75,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「こおり」状態にする')
+
+Skilldb.create(id:          544,
+  skillname:            'れいとうビーム',
+  skilltype:           'こおり',
+  skillpower:           95,
+  skillhit:           100,
+  skillpp:           10,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '10％の確率で相手を「こおり」状態にする')
+
+Skilldb.create(id:          545,
+  skillname:            'れんごく',
+  skilltype:           'ほのお',
+  skillpower:           100,
+  skillhit:           50,
+  skillpp:           5,
+  skillkind:           '特殊',
+  skillscope:           '通常',
+  skilleffect:           '激しい炎で相手を包みこみ攻撃する。やけど状態にする。')
+
+Skilldb.create(id:          546,
+  skillname:            'れんぞくぎり',
+  skilltype:           'むし',
+  skillpower:           20,
+  skillhit:           95,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '当てる度に、威力が2倍になっていく。1度でもはずすと威力は戻る')
+
+Skilldb.create(id:          547,
+  skillname:            'れんぞくパンチ',
+  skilltype:           'ノーマル',
+  skillpower:           18,
+  skillhit:           85,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターンに2～5回連続で攻撃する')
+
+Skilldb.create(id:          548,
+  skillname:            'ローキック',
+  skilltype:           'かくとう',
+  skillpower:           60,
+  skillhit:           100,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '素早い動きで相手の足をねらって攻撃する。相手の素早さをさげる。')
+
+Skilldb.create(id:          549,
+  skillname:            'ロケットずつき',
+  skilltype:           'ノーマル',
+  skillpower:           100,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '1ターン目はためて、2ターン目に攻撃。1ターン目に自分の「ぼうぎょ」を1段階上げる')
+
+Skilldb.create(id:          550,
+  skillname:            'ロックオン',
+  skilltype:           'ノーマル',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           5,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '次のターンの攻撃を必ず命中させる')
+
+Skilldb.create(id:          551,
+  skillname:            'ロックカット',
+  skilltype:           'いわ',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「すばやさ」を2段階上げる')
+
+Skilldb.create(id:          552,
+  skillname:            'ロッククライム',
+  skilltype:           'ノーマル',
+  skillpower:           90,
+  skillhit:           85,
+  skillpp:           20,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '20％の確率で相手を「こんらん」状態にする')
+
+Skilldb.create(id:          553,
+  skillname:            'ロックブラスト',
+  skilltype:           'いわ',
+  skillpower:           25,
+  skillhit:           90,
+  skillpp:           10,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '１ターンに2～5回連続で攻撃する')
+
+Skilldb.create(id:          554,
+  skillname:            'ワイドガード',
+  skilltype:           'いわ',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '味方の場',
+  skilleffect:           '味方全員に当たる攻撃を1ターンのあいだ防ぐ。連続でだすと失敗しやすい。')
+
+Skilldb.create(id:          555,
+  skillname:            'ワイルドボルト',
+  skilltype:           'でんき',
+  skillpower:           90,
+  skillhit:           100,
+  skillpp:           15,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '電気をまとって相手にぶつかって攻撃する。自分も少しダメージを受ける。')
+
+Skilldb.create(id:          556,
+  skillname:            'わたほうし',
+  skilltype:           'くさ',
+  skillpower:           '',
+  skillhit:           100,
+  skillpp:           40,
+  skillkind:           '変化',
+  skillscope:           '通常',
+  skilleffect:           '相手の「すばやさ」を2段階下げる')
+
+Skilldb.create(id:          557,
+  skillname:            'わるあがき',
+  skilltype:           'ノーマル',
+  skillpower:           50,
+  skillhit:           '',
+  skillpp:           1,
+  skillkind:           '物理',
+  skillscope:           '通常',
+  skilleffect:           '全てのわざのPPを使うと出るわざ。与えたダメージの1/4を自分も受ける')
+
+Skilldb.create(id:          558,
+  skillname:            'わるだくみ',
+  skilltype:           'あく',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           20,
+  skillkind:           '変化',
+  skillscope:           '自分',
+  skilleffect:           '自分の「とくこう」を2段階上げる')
+
+Skilldb.create(id:          559,
+  skillname:            'ワンダールーム',
+  skilltype:           'エスパー',
+  skillpower:           '',
+  skillhit:           '',
+  skillpp:           10,
+  skillkind:           '変化',
+  skillscope:           '全体の場',
+  skilleffect:           'まか不思議な空間をつくる。5ターンのあいだすべてのポケモンの防御と特防が入れ替わる。')
+
+
 Pokeparty.delete_all
 Pokeparty.create(party:         '最強',
                  battlec:       100,

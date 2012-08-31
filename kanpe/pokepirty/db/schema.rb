@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120830144414) do
+ActiveRecord::Schema.define(:version => 20120831074903) do
 
   create_table "pirties", :force => true do |t|
     t.string   "name"
@@ -147,6 +147,19 @@ ActiveRecord::Schema.define(:version => 20120830144414) do
     t.integer  "p6evd"
     t.integer  "p6evs"
     t.text     "p6detail"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "skilldbs", :force => true do |t|
+    t.string   "skillname"
+    t.string   "skilltype"
+    t.integer  "skillpower"
+    t.integer  "skillhit"
+    t.integer  "skillpp"
+    t.string   "skillkind"
+    t.string   "skillscope"
+    t.text     "skilleffect"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

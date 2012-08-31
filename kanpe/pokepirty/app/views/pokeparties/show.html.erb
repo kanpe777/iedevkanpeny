@@ -41,13 +41,13 @@
   <%= eval("@pokeparty.p#{no}role") %>
 </p>
 <dt class=list_line_even>
-  <%= eval("@pokeparty.p#{no}trick1") %>
+  <%= eval("link_to @pokeparty.p#{no}trick1, @poke#{no}_1") %> 
   <b>/</b>
-  <%= eval("@pokeparty.p#{no}trick2") %>
+  <%= eval("link_to @pokeparty.p#{no}trick2, @poke#{no}_2") %> 
   <b>/</b>
-  <%= eval("@pokeparty.p#{no}trick3") %>
+  <%= eval("link_to @pokeparty.p#{no}trick3, @poke#{no}_3") %> 
   <b>/</b>
-  <%= eval("@pokeparty.p#{no}trick4") %>
+  <%= eval("link_to @pokeparty.p#{no}trick4, @poke#{no}_4") %> 
 </dt>
 
 <table border=1>

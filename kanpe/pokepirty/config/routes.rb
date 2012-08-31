@@ -1,4 +1,6 @@
 Pokepirty::Application.routes.draw do
+  resources :skilldbs
+
   resources :pokeparties
 
   resources :structures

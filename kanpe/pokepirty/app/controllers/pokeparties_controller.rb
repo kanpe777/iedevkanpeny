@@ -19,6 +19,36 @@ class PokepartiesController < ApplicationController
     @poke4   = Pokedb.find_by_name(@pokeparty.p4name)
     @poke5   = Pokedb.find_by_name(@pokeparty.p5name)
     @poke6   = Pokedb.find_by_name(@pokeparty.p6name)
+
+    @poke1_1 = Skilldb.find_by_skillname(@pokeparty.p1trick1)
+    @poke1_2 = Skilldb.find_by_skillname(@pokeparty.p1trick2)
+    @poke1_3 = Skilldb.find_by_skillname(@pokeparty.p1trick3)
+    @poke1_4 = Skilldb.find_by_skillname(@pokeparty.p1trick4)
+
+    @poke2_1 = Skilldb.find_by_skillname(@pokeparty.p2trick2)
+    @poke2_2 = Skilldb.find_by_skillname(@pokeparty.p2trick2)
+    @poke2_3 = Skilldb.find_by_skillname(@pokeparty.p2trick3)
+    @poke2_4 = Skilldb.find_by_skillname(@pokeparty.p2trick4)
+
+    @poke3_1 = Skilldb.find_by_skillname(@pokeparty.p3trick1)
+    @poke3_2 = Skilldb.find_by_skillname(@pokeparty.p3trick2)
+    @poke3_3 = Skilldb.find_by_skillname(@pokeparty.p3trick3)
+    @poke3_4 = Skilldb.find_by_skillname(@pokeparty.p3trick4)
+
+    @poke4_1 = Skilldb.find_by_skillname(@pokeparty.p4trick1)
+    @poke4_2 = Skilldb.find_by_skillname(@pokeparty.p4trick2)
+    @poke4_3 = Skilldb.find_by_skillname(@pokeparty.p4trick3)
+    @poke4_4 = Skilldb.find_by_skillname(@pokeparty.p4trick4)
+
+    @poke5_1 = Skilldb.find_by_skillname(@pokeparty.p5trick1)
+    @poke5_2 = Skilldb.find_by_skillname(@pokeparty.p5trick2)
+    @poke5_3 = Skilldb.find_by_skillname(@pokeparty.p5trick3)
+    @poke5_4 = Skilldb.find_by_skillname(@pokeparty.p5trick4)
+
+    @poke6_1 = Skilldb.find_by_skillname(@pokeparty.p6trick1)
+    @poke6_2 = Skilldb.find_by_skillname(@pokeparty.p6trick2)
+    @poke6_3 = Skilldb.find_by_skillname(@pokeparty.p6trick3)
+    @poke6_4 = Skilldb.find_by_skillname(@pokeparty.p6trick4)
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @pokeparty }
